@@ -7,6 +7,7 @@
     <style>
       .container {
         background-color: rgb(210, 192, 167);
+        width: 300px;
       }
       .header {
         background-color: rgb(206, 132, 67);
@@ -56,6 +57,12 @@
           <input type="password" id="sifre" name="SIFRE" />
         </div>
         <br />
+
+        <div>
+          <label for="email">Emaliniz:</label><br />
+          <input type="email" name="EMAIL" id="email" />
+        </div>
+
         <div>
           <label for="yas">Yaşınız</label> <br />
           <input type="number" name="YAŞINIZ" id="yas" />
@@ -86,21 +93,70 @@
           <input type="checkbox" name="gün" id="" value="Çarşamba" />
           <label for="">Çarşamba</label>
           <br />
-          <input type="checkbox" name="gün" id="" value="Perşembe"/>
+          <input type="checkbox" name="gün" id="" value="Perşembe" />
           <label for="">Perşembe</label>
           <br />
           <input type="checkbox" name="gün" id="" value="Cuma" />
           <label for="">Cuma</label>
         </div>
-        <input type="submit" value="Kaydet">
+        <input type="submit" value="Kaydet" />
 
         <!-- --------------------------------- -->
         <!-- color -->
         <!-- --------------------------------- -->
         <div>
-            <label for="renk">Sevdiğiniz Renk:</label>
-            <input type="color" name="" id="" value="#f6b73c">
+          <label for="renk">Sevdiğiniz Renk:</label>
+          <input type="color" name="" id="" value="#f6b73c" />
         </div>
+
+        <div>
+          <label for="tel">Telefon:</label><br />
+          <input
+            type="tel"
+            name="TELEFON"
+            id="tel"
+            placeholder="xxx-xxx-xx-xx"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}-"
+          />
+        </div>
+        <br />
+        <!-- ------------------SELECT----------------- -->
+        <div>
+          <label for="hobi">Hobinizi Seçin:</label>
+          <br />
+          <select name="HOBI" id="">
+            <option value="müzik">Müzik</option>
+            <option value="resim">Resim</option>
+            <option value="yüzme">Yüzme</option>
+            <option value="satranç">Satranç</option>
+          </select>
+        </div>
+
+        <!-- datalist -->
+        <div>
+        <label for="ulke">Görmek İstediğiniz Ülkeler:</label>
+        <br />
+        <input type="text" list="ulke">
+        <datalist name="ULKE" id="ulke">
+            <option value="Almanya"></option>
+            <option value="USA"></option>
+            <option value="Kongo"></option>
+            <option value="Japonya"></option>
+            <option value="Norveç"></option>
+        </datalist>
+    </div>
+    <br>
+    <div>
+        <fieldset>
+            <legend>ID ve Vize Bilgisi</legend>
+            <label for="id">ID:</label>
+            <input type="text">
+            <br><br>
+            <label for="vizeTuru">Vize Türü</label>
+        </fieldset>
+    </div>
+
+        
       </form>
     </div>
   </body>
