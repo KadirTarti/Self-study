@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.images li img {
+    /* max-width: 100%; */
+    width: 100%;
+}
+
+img {
+    margin: content-box;
+    overflow: clip;
+}
+
+
+.images {
+    margin: 80px 0;
+    white-space: nowrap;
+}
+
+.images li {
+    display: inline-block;
+    list-style-type: none;
+    width: 40%;
+    margin: 20px 5%;
+    position: relative;
+}
+
+header {
+    background-color: #F63232;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+{@media screen and (max-width: 560px)}
+header, nav {
+    position: relative;
+    top: 0;
+}
+
+header {
+    outline: 1px solid #99cfe7!important;
+}
+
+
+header h1 {
+    color: white;
+    border: 8px solid white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 36px;
+}
+
+
+h1{
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+}
+
+h3{ color:rgb(255, 0, 0);
+    margin-left: 80px;
+    padding: 7px;
+    font-family: tahoma;
+font-size: 36px;}
+
+p{color:rgb(57, 57, 57);
+    margin-left: 80px;
+    margin-bottom: 50px;
+    padding: 7px;
+    font-size:18px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: tahoma;
+}
+article p::first-line {
+    font-weight: bold;
+    font-size: 1.2em;}
+
+.resim1{
+    width: 80%;
+    height: 70%;
+
+}
+
+
+{@media screen and (max-width: 960px)}
+
+nav {
+    background: #F4F4F4;
+    padding: 20px;
+    position: sticky;
+    top: 106px;
+    z-index: 1;
+    display: block;
+}
+
+
+nav li {
+    display: inline-block;
+    margin: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;   
+}
+
+nav li a {
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+li{text-align:}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+body, ul, li, h1, h3, a{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+{@media screen and (max-width: 560px)}
+header, nav {
+    position: relative;
+    top: 0;
+}
+
+article p {
+    line-height: 2em;
+    color: #4B4B4B;
+}
+
+main {
+    display: block;
+}
