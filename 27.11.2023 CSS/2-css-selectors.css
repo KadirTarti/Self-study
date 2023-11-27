@@ -1,0 +1,35 @@
+*{
+    background-color: lightblue;
+    color: white;
+    margin:0;
+    padding: 0;
+}
+
+
+
+h1{
+    background-color: rgb(130, 148, 122);
+    border: 2px solid black;
+    padding: 10px;
+    color:brown;
+}
+
+ul{
+    background-color: darkslategray;
+    color: white;
+}
+.paragraf{
+    background-color: darkkhaki;
+}
+    
+.paragraf h2{
+background-color: aqua;
+color: crimson;
+}
+
+img{
+        border: 5px solid midnightblue;
+        padding: 10px;
+        margin: 10px;
+
+    }
