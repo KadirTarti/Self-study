@@ -1,0 +1,49 @@
+*{
+    margin:0;
+}
+
+h1{background-color: lightskyblue;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.parag{
+    background-color: lightsalmon;
+    margin-left: 20px;
+}
+
+.parag1{
+    background-color: lightgray;
+    margin: 20px 30px 35px 12px
+}
+
+.parag2{
+    background-color: lightseagreen;
+    width: 400px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 10px
+}
+
+img{
+    /* display:block demeden yapmak istersek img elementini div içerisinde almamız gerekiyor! */
+    display:block;
+    margin: auto
+}
+
+div{
+    margin: auto
+
+}
+
+.img2{
+   width: 50%;
+   margin: auto; 
+}
+
+.overlap{
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 20px;
+}
