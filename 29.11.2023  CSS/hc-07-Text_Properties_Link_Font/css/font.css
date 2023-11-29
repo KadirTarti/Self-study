@@ -1,0 +1,52 @@
+
+/* browserın casual font boyutu 16px'dir 
+dolayısıyla değişiklik yapmadan fonta 3rem veirsek 16x3= 48px olur. */
+
+
+html{
+    font-size: 15px;
+    /* burayı rem olarak da ayarlayabiliriz ama genelde px kullanılıyor */
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+img{
+    width: 20rem;
+    border: 1rem solid red;
+}
+
+.enDis{
+    font-size: 10px;
+}
+
+.yazi{
+    font-size: 2em;
+}
+
+.yazi{
+    font-size: 1em;
+}
+
+.icDiv img{
+    width: 10em;
+    width: 40vw;
+}
+
+/* vw (viwewidth) ekranboyutuna oranlama yapar. örn 10vw ekranın %10'unu kapsar. 50vw ekranın %50'sini kapsar */
+
+.app{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgray;
+}
+
+.banana{
+ 
+    font-family: 'Roboto Slab', serif;
+ 
+    }
