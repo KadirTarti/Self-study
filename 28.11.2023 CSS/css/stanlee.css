@@ -1,3 +1,9 @@
+*{
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: black;
     color: white;
@@ -40,7 +46,8 @@ img{
 
 .marvel{
     color: red;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    margin: 10px 0 10px 10%;
 }
 
 .comics ul{
@@ -71,5 +78,5 @@ footer{
 
 .link:hover{
     color: red;
-    background-color:#272626 ;
+    background-color: #272626;
 }
