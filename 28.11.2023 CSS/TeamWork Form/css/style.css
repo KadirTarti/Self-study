@@ -1,0 +1,53 @@
+body{
+    margin: 100px auto; 
+    margin-top: 20px;
+  }
+
+.ilkButonlar{
+    width: 100%;
+}
+
+  input{ 
+    border: 1px solid;
+    width: 120px;
+}
+
+table{
+    display:flex;
+}
+  
+.kisisel{
+    display: flex;
+    margin: 10px;
+}
+
+
+label{
+    display: inline-block;
+    width: 130px;
+}
+
+
+
+
+.box{
+    margin:5px;
+    display: inline-block;
+
+}
+
+.guvenlik{
+    margin-left: 30px;
+}
+
+.giris1{
+    margin: 200px;
+}
+
+.sektor1{
+    display:block;
+}
+
+div{
+    display: block;
+}
