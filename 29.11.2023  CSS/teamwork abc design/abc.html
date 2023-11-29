@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./abc.css" />
+  </head>
+
+  <body>
+    <div>
+      <header>
+        <h2>ABC Tasarım Programı Kurulumu ve Satış Sözleşmesi :)</h2>
+      </header>
+      <form action="">
+        <fieldset>
+          <legend>Sözleşme Onay</legend>
+          <input type="checkbox" id="idOnay" />
+          <label for="idOnay"
+            >Aşağıdaki bilgilerin doğruluğunu kabul ediyorum</label
+          >
+          <br />
+          <input type="submit" value="Formu Kaydet" />
+          <input type="submit" value="Formu Temizle" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Kişisel Bilgiler</legend>
+          <div class="formKisisel">
+            <label for="id">Form Güvenlik ID</label>
+            <input type="text" id="id" disabled value="ID giriniz" />
+
+            <div>
+              <label for="ad">Ad</label>
+              <input type="text" id="ad" />
+            </div>
+
+            <div>
+              <label for="soyad">Soyad</label>
+              <input type="text" id="soyad" />
+            </div>
+
+            <div>
+                <label for="yas">Yas</label>
+                <input type="number" id="yas" min="18" max="99"/>
+              </div>
+
+              <div>
+                <label for="mail">Mail Adresi</label>
+                <input type="email" id="mail"/>
+              </div>
+
+              <div>
+                <label for="fotograf">Fotoğraf Ekle</label>
+                <input type="file" id="fotograf">
+              </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Diğer Bilgiler</legend>
+            <p>Buradaki Alanlar Mesleki Deneyimi Kapsar</p>
+            <div>
+                <div>
+                    <div class="labelContainer">
+                        <label for="">Sektöre Giriş Tarihi</label>
+                    </div>
+                    <input type="date" id="baslangicTarihi">
+                </div>
+                <div>
+                    <div class="labelContainer" id="sektor">
+                        <label for="">Sektör Deneyimi</label>
+                    </div>
+                    <div class="radioContainer">
+                        <input type="radio" name="deneyim" id="bes"><label for="bes">1-5  Yıl</label> <br>
+                        <input type="radio" name="deneyim" id="on"><label for="on">6-10  Yıl</label> <br>
+                        <input type="radio" name="deneyim" id="onbes"><label for="onbes">11-15  Yıl</label> <br>
+                        <input type="radio" name="deneyim" id="artionbes"><label for="artionbes">15 ve üzeri</label>
+                    </div>
+
+                    <div>
+                        <div class="labelContainer" id="diller">
+                            <label for="programlamaDilleri">Programlama Dilleri</label>
+                        </div>
+                        <div class="selectContainer">
+                            <select name="programlamaDilleri" id="" multiple>
+                                <option value="c#">C#</option>
+                                <option value="php">PHPH</option>
+                                <option value="java">Java</option>
+                                <option value="javascript">Javascript</option>
+                                <option value="phyton">Phyton</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sözleşme Kopyası</legend>
+            <textarea name="sozlesmeKopyasi" id="" cols="40" rows="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur nostrum sit ad! Facilis odit quae similique officia? Commodi vitae placeat in quisquam. Voluptates illum deserunt reprehenderit voluptate rem doloremque tenetur quos et, sit fugit reiciendis laborum fuga labore autem enim? Velit perferendis non aliquam laudantium, magnam totam eveniet facilis explicabo!
+            </textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mail Listesi</legend>
+            <div>
+                <label for="mailListesiOnay">Mail Listesine Katılmak <b>İstiyorum</b></label>
+                <input type="radio" name="mailListesiOnay" id="mailListesiOnay">
+                <br>
+                <label for="mailListesiOnay">Mail Listesine Katılmak <b><ins>İstemiyorum</ins></b></label>
+                <input type="radio" name="mailListesiOnay" id="mailListesiOnay">
+            </div>
+        </fieldset>
+
+
+
+      </form>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tcolor {
+  color: brown;
+  background-color: rgb(255, 255, 220);
+}
+
+.alignProp {
+  margin: auto;
+  width: 50%;
+  border: 2px solid black;
+}
+
+.alignment {
+  text-align: justify;
+  background-color: lightskyblue;
+}
+
+.trans{
+    text-transform: capitalize;
+
+}
+
+.indent{
+    text-indent: 15px;
+}
+
+.letter{
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.word{
+    word-spacing: 18px;
+}
+
+.line{
+    background-color: lightgrey;
+    line-height: 37px;
+    /* line-height px yada birim olarak verilebilir. default değer 1 dir.. bir satırı ifade eder
+    
+    ÖNEMLİ BİR KOD...İŞE YARAR*/
+}
+
+.shadow{
+    margin: 20px;
+    line-height: 25px;
+    text-shadow: 1px 1px 2px purple;
+}
+
+.box_shadow{
+    background-color: rgb(182, 222, 255);
+    width: 50%;
+    box-shadow: 5px 10px 10px lightseagreen;
+    margin: 20px;
+}
