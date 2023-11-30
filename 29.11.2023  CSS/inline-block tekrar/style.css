@@ -1,0 +1,38 @@
+.div1{
+    background-color: blue;
+}
+
+.div2{
+    background-color: rgb(26, 122, 122);
+    margin: 20px;
+    width: 30%;
+}
+
+.div3{
+    background-color: brown;
+}
+
+.span1{
+    background-color: olive;
+}
+
+.span2{
+    background-color: seagreen;
+    display: inline-block;
+    margin: 50px;
+    padding: 50px;;
+}
+
+.span3{
+    background-color: yellowgreen;
+}
+
+.ortala{
+    background-color: aqua;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
