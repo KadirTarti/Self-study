@@ -201,7 +201,7 @@ color: white;
 .movie-list-filter select{
     background-color: black;
     color: white;
-    padding: 8px 0;
+    padding: 7px 0;
     width: 125px;
     text-align: center;
 }
@@ -219,6 +219,7 @@ color: white;
     height: 300px;
     display: flex;
     align-items: center;
+    column-gap: 30px;
 }
 
 .movie-item{
@@ -227,17 +228,20 @@ color: white;
 
 
 .movie-item-img{
-    width: 270px;
+    width: 370px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .movie-item-title{
     background-color: rgba(53, 78, 81, 0.7);
     padding: 0 10px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     position: absolute;
     top:10%;
     left:30px;
+    
 }
 
 .movie-item-buttons{
@@ -249,4 +253,15 @@ color: white;
     left:50px;
     display: flex;
     column-gap: 20px;
+}
+
+.movie-item-buttons i{
+    cursor: pointer;
+    opacity: .5;
+    font-size: 20px;
+    transition: .5s all ease;
+}
+
+.movie-item-buttons i:hover{
+    opacity: 1;
 }
