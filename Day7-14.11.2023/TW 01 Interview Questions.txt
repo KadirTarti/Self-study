@@ -1,0 +1,58 @@
+1. What is Linux?
+Linux  ücretsiz ve açık kaynaklı bir işletim sistemidir. (güvenli, tutarlı, esnek, yüksek performans)
+Linux aslında diğer birçok bileşenle bir işletim sistemi halini alan bir çekirdektir. 
+(Çekirdek, Linux işletim sisteminin kalbinde yer alan ve donanımın yazılımla iletişim kurmasına izin vermek gibi temel görevlerle ilgilenen bir programdır.)
+
+
+
+2. If you have saved a file in Linux. Later you wish to rename that file, what command is designed for it?
+mv oldfilename newfilename
+
+3. What is CLI?
+command line interface
+komut satırı arayüzüdür. Kullanıcıların, bilgisayarlara belirli görevleri yapmaları için metin komutlar girmelerini sağlayan bir programdır.
+
+4. Explain Agile in brief.
+AGILE, yazılım geliştirme ve proje yönetimine yönelik esnekliği, işbirliğini ve müşteri memnuniyetini vurgulayan yinelemeli ve artımlı bir YAKLAŞIMDIR. Bir ürünün küçük, işlevsel parçalarının yineleme veya sprint adı verilen, genellikle bir ila dört hafta arasında değişen kısa zaman dilimlerinde teslim edilmesine öncelik verir.
+
+şirketlerin doğru ürünü oluşturmasına yardımcı olduğu söylenebilir
+ürünü iyileştirmeye teşvik eder.
+
+Çevik Manifesto'da ana hatlarıyla belirtildiği gibi Çevik'in temel ilkeleri ve değerleri şunları içerir:
+
+1- Süreçler ve araçlar yerine BİREYLER ve ETKİLEŞİMLER: Geliştirme ekibi içinde etkili iletişim ve işbirliğinin öneminin vurgulanması.
+
+2- Kapsamlı dokümantasyon yerine ÇALIŞAN YAZILIM: Kapsamlı dokümantasyon üzerinden müşteriye işlevsel yazılım sunmaya odaklanmak.
+
+3- Sözleşme müzakeresinde MÜŞTERİ İŞBİRLİĞİ: Ürünün ihtiyaçlarını karşıladığından emin olmak için müşterinin geliştirme süreci boyunca aktif katılımının teşvik edilmesi.
+
+4- Bir planı takip etmek yerine DEĞİŞİME YANIT VERMEK: Daha iyi bir ürün sunmak için geliştirme sürecinin sonlarında bile gereksinimler ve önceliklerdeki değişiklikleri benimsemek.
+
+SCRUM ve KANBAN gibi çevik metodolojiler bu ilkeleri uygulamaya yönelik özel çerçeveler ve uygulamalar sağlar. Bu metodolojiler, kısa döngülerde değer artışları sağlayarak UYGULANABİLİRLİĞİ, sürekli İYİLEŞTİRMEYİ ve MÜŞTERİ MEMNUNİYETİNİ teşvik eder. Agile'ın yinelemeli doğası, ekiplerin değişen gereksinimlere ve geri bildirimlere hızlı bir şekilde yanıt vermesine olanak tanıyarak daha esnek ve duyarlı bir geliştirme sürecini teşvik eder.
+
+5. What are some important parts of the Agile process?
+	1. Requirement Phase
+	2. Design Phase
+	3. Build/Development
+	4. Testing
+	5. Deployment/Deliver
+	6. Maintenance
+
+
+S : 'Scrum' ve 'Kanban'ın kullanıldığı yerleri anlatır mısınız?
+C : Daha belirgin bir sürece ihtiyaç duyduğunuzda Scrum daha iyi bir seçimdir. Ancak senaryonun tamamında çok fazla değişiklik yapmadan sürecin yürütülmesinde iyileşme istiyorsanız Kanban'ı kullanmalısınız.
+
+
+Agile modelinin herhangi bir dezavantajı var mı? Cevabınız evet ise lütfen açıklayın.
+Evet Agile yönteminin bazı dezavantajları vardır, bunlardan bazıları şunlardır:
+- Bir görevi tamamlamak için gereken çabanın tahminini yapmak kolay değildir. 
+- Müşterinin istediği gereksinimlerin doğru anlaşılmaması 
+-  Agile modelde yalnızca önemli deneyime sahip olan lider önemli kararlar alabilir. Deneyimi az olan veya hiç olmayan ekip üyeleri karar alma sürecine dahil olamamakta, dolayısıyla bilgilerini ilerletme şansları bulunmamaktadır.
+
+Retrospektifin amacı nedir?
+ Bu toplantının katılımcıları geliştirme ekibi, scrum master ve ürün sahibidir. Bu toplantıda tüm katılımcılar şunları tartışır:
+- Önceki sprintte neler iyi gitti?
+- Neler yolunda gitmedi?
+- Ekip performansını artıracak iyileştirme alanları nelerdir?
+
+

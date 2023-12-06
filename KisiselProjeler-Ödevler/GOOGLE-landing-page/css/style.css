@@ -48,6 +48,7 @@ body {
 
 .appicon{
     opacity: 0.6;
+    cursor: pointer;
 }
 
 .mic-icon{

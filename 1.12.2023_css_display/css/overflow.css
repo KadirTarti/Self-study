@@ -1,0 +1,40 @@
+.box{
+    border: 5px solid black;
+    margin-bottom: 4rem;
+    width: 20rem;
+    height: 4rem;
+    background-color: bisque;
+}
+
+.box1{
+    overflow: visible;
+}
+
+
+.box2{
+    overflow: hidden;
+}
+
+
+.box3{
+    overflow: scroll;
+    /* SCROLL YAPSIN AMA SCROLLBAR GÖRÜNMESİN İSTERSEK
+    aşağıdaki kodu yazıyoruz*/
+}
+
+.box3::-webkit-scrollbar{
+    width: 0;
+    display: none;
+}
+
+
+.box4{
+    overflow: auto;
+    /* eğer yazı taşmazsa scroll getirmiyor
+    EN MANTIKLISI BU SEÇENEK */
+}
+
+
+.box5{
+
+}

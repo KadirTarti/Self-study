@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 200vh;
+    height: 100vh;
     font-family: 'Electrolize', sans-serif;
 }
     .container{
@@ -24,6 +24,7 @@ body{
     color: white;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .navbar-wrapper{
@@ -222,37 +223,58 @@ color: white;
     column-gap: 30px;
 }
 
+.movie-list-wrapper{
+    overflow: hidden;
+    position: relative;
+}
+
 .movie-item{
     position: relative;
 }
 
+.movie-item:hover .movie-item-title,
+.movie-item:hover .movie-item-buttons{
+    opacity: 1;
+}
+
+.movie-item:hover .movie-item-img{
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+}
 
 .movie-item-img{
     width: 370px;
     height: 200px;
     object-fit: cover;
+    transition: 1s all ease-in-out;
 }
 
 .movie-item-title{
-    background-color: rgba(53, 78, 81, 0.7);
+    background-color: rgba(53, 78, 81, 0.5);
     padding: 0 10px;
     font-size: 24px;
     font-weight: bold;
     position: absolute;
+    margin: auto;
     top:10%;
     left:30px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
     
 }
 
 .movie-item-buttons{
-    background-color: rgba(80, 80, 80, 0.7);
-    padding: 10px;
+    background-color: rgba(80, 80, 80, 0.5);
+    padding: 5px;
     font-weight: bold;
     position: absolute;
     bottom:10%;
     left:50px;
     display: flex;
     column-gap: 20px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
 }
 
 .movie-item-buttons i{
@@ -265,3 +287,21 @@ color: white;
 .movie-item-buttons i:hover{
     opacity: 1;
 }
+
+.arrow{
+    width: 100px;
+    display: flex;
+    font-size: 120px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    opacity: .5;
+    transition: .5sn all ease;
+    cursor: pointer;
+}
+
+.arrow{
+    opacity: 1;
+}
+
+ /*! movie-list-start   */

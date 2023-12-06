@@ -1,0 +1,19 @@
+1- Git Nedir?
+
+Git, yazılım geliştirme sırasında kaynak kodundaki değişiklikleri izlemeye yarayan 
+-ücretsiz
+-açık kaynaklı
+-dağıtılmış .....     bir SÜRÜM KONTROL SİSTEMİdir.
+
+2- What ist the major focus of a Version Control System?
+Dosyalar, programlar, günlükler ve kod geliştirme, kod dağıtımı ve kod işlemiyle ilgili diğer bilgilerdeki DEĞİŞİKLİKLERİ YÖNETMEKTİR. (to manage the changes to the files, programs...)
+
+3- What is a Repository?
+Repository, projelerinizin YAŞAYABİLECEĞİ bir dizin veya depolama alanıdır. (where your projects can live.)
+
+4-  What are the Git states?
+Modified,
+Staged,
+Committed.
+
+5- 

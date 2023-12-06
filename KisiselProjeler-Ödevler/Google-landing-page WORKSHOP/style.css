@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+
+
+header{
+    padding: 20px;
+    height: auto;
+}
+
+
+
+.header-left{
+    float: left;
+    padding: 10px;
+}
+
+.header-right{
+    float: right;
+    padding: 5px;
+
+}
+
+.clear{
+    clear:both;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.app-icon{
+    opacity: 0.6;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.sign-in-button{
+    padding: 5px 10px;
+    background-color: #5284f4;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+.app-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.google-logo{
+    display: block;
+    margin: 200px auto 0;
+    width: 272px;
+    height: 92px;
+}
+
+.mag{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 10px;
+    }
+
+.mic{
+    width: 20px;
+    height: 27px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.search-bar{
+    margin: auto;
+    text-align: center;
+    width: 580px;
+    border-radius: 40px;
+    height: 44px;
+    border: 1px solid gray;
+    padding-top: 4px;
+    position: relative;
+}
+
+.search input{
+    margin-left: 60px;
+    border: none;
+}
+
+.search{
+    width: 450px;
+    height: 40px;
+    margin-bottom: 10px;
+    
+    top: 5px;
+    right: 85px;
+    border:none;
+    
+}
+
+.search-bar input{
+    width: 500px;
+    height: 35px;
+
+}
+
+.search:focus{
+    outline: none;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn-container button{
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: gray;
+    border-radius: 4px;
+}
+
+.btn-container button:hover{
+    color: black;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0.7px 0.7px 0 gray;
+    cursor: pointer;
+}
+
+.lang{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.long p{
+    font-size: 0.8rem;
+}
+
+.lang a{
+    color: navy;
+}
+
+.lang a:hover{
+    cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 10px;
+    line-height: 40px;
+    font-size: 0.8rem;
+}
+
+.country{
+    border-bottom: 1px solid #e4e4e4;
+    margin: 0 20px;
+    font-size: 0.9rem;
+    color: #5f6368;
+}
+
+.footer-left{
+    float:left;
+}
+
+.footer-right{
+    float: right;
+}
+
+nav a{
+    color: #5f6368;
+}

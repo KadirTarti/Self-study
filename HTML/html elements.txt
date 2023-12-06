@@ -1,0 +1,52 @@
+-p ve div elementleri block-level elementidir.
+onlardan sonra yeni satıra geçer
+-div elementi sık kullanılan bir konteynır elementidir. CSS ile beraber kullanıldığında style attribute'ü ile içerisine çeşitli özellikler atanabilir.
+
+
+-inline elementler yeni satıra geçirmeyen, aynı satırda devam eden elementlerdir.
+-örn: span, button, input, em, i
+
+
+
+-id attribute'ü benzersiz kimlik ataması içindir
+h1 id'sine myHeader verdiğinde <style> altında #myHeader{ yazarak içine background-color, color, padding vs ekleyebiliriz. }
+
+***id ve class farkı nedir: id sadece bir elementi tanımlar. class'ı ise birden fazla tag'a yazabilir, birden fazla yeri tanımlamak için kullanabiliriz.
+
+*HTML Bookmarks, id ve link
+<h2 id="C4">Chapter 4</h2>
+
+Then, add a link to the bookmark ("Jump to Chapter 4"), from within the same page:
+<a href="#C4">Jump to Chapter 4</a>
+
+Or, add a link to the bookmark ("Jump to Chapter 4"), from another page:
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+
+HTML- JS
+JavaScript makes HTML pages more dynamic and interactive.
+ex:
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+*Bu kod, üzerine tıklandığında tarihi gösterten bir buton kodu.
+
+
+
+düzey/seviye gösterme tag'ı
+<p>Heat the oven to <meter min="200" max="500" value="350">350 degrees</meter>.</p>
+
+
+***HTML ve JS birlikte kullanma:
+By using script tag we can use JavaScript with HTML. For Eg:
+<script>
+document.getElementById(“demo”).innerHTML = “Hello JavaScript!”;
+</script>
+
+
+method ---> 
+GET sunucudan veri almak için, POST veri göndermek için kullanılır
+
+
