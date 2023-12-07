@@ -1,0 +1,173 @@
+"@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+#navbar-left {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #555;
+    column-gap: 30px;
+    margin-left: 10px;
+}
+
+#navbar-left a {
+    text-decoration: none;
+    color: #555;
+    align-items: center;
+}
+
+#navbar-right {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #555;
+    column-gap: 20px;
+}
+
+.links-right{
+    text-decoration: none;
+}
+
+.appicon{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.mic-icon{
+    width: 20x;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right:40px;
+    align-items: center;
+}
+
+.search-icon{
+    width: 20x;
+    height: 25px;
+    position: absolute;
+    top: 8px;
+    left:40px;
+    
+}
+
+
+#google-container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#form-container{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+#google-logo {
+    width: 272px;
+    height: 92px;
+}
+
+#search-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#search-bar {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding-left: 40px;
+    position: relative;
+}
+
+#search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #555;
+}
+
+#search-button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 24px;
+    margin-left: -2px;
+}
+
+#google-links {
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+#google-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #757575;
+}
+
+.g-search{
+    height: 30px;
+    width: 130px;
+    border: none;
+    color: #151515ab;
+    border-radius: 3px;
+}
+
+#images-icon {
+    color: #555;
+    margin-right: 5px;
+}
+
+#sign-in-button {
+    background-color: #4285F4;
+    color: white;
+    border: 0px solid #dfe1e5;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    column-gap: 5px;
+    font-size: 14px;
+    margin-left: 150px;
+    
+}
