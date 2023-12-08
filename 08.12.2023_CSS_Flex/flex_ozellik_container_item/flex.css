@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+}
+
+ul {
+  background-color: rgb(144, 144, 144);
+  padding: 1rem;
+  /* height: 50vh; */
+  list-style-type: none;
+  display: flex;
+  /* flex-direction: column-reverse; */
+  flex-wrap: row;
+  gap: 1rem 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ! justify-content: center yatayda hizalar
+    align-items: center ise dikeyde */
+
+li {
+  background-color: lightblue;
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 25px;
+}
+
+/* ! order ile itemlerin sıralamsını değiştirebiliyoruz */
+/* .first{
+    order: 2;
+}
+
+.second{
+    order: -1;
+} */
+/* !-------------------------- */
+
+.container {
+  background-color: darkslateblue;
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.box1 {
+  background-color: lightseagreen;
+  height: 50px;
+  /* flex: 1;
+  flex-basis: 100px;
+  flex-grow: 0; */
+  flex: 1 1 1rem;
+}
+
+.box2 {
+  background-color: darkred;
+  height: 50px;
+  /* flex: 3; */
+  flex: 2 2 5rem;
+  /* !üstteki şekilde kullanılabilir. bu kullanımı grow-shrink-basis olarak kabul eder. 0 0 100px gibi değer verilebilir. */
+
+}
+
+.box3 {
+  background-color: lightsalmon;
+  height: 50px;
+  /* flex: 1;
+  flex-basis: 100px;
+  flex-grow: 0; */
+  flex: 3 3 10rem;
+}
+
+
+.container1{
+    margin-top: 50px;
+    background-color: bisque;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.container1 *{
+    background-color: crimson;
+    margin-bottom: .5rem;
+    padding: 1rem;
+}
+
+.container1 header{
+    width: 100%;
+    /* !veya flex:1 100% */
+}
+
+.container1 footer{
+    width: 100%;
+}
+
+.container1 .left{
+    /* width: 20%; */
+    flex: 1;
+}
+
+.container1 main{
+    /* width: 55%; */
+    flex:4;
+}
+
+.container1 .right{
+    /* width: 20%; */
+    flex:1;
+}
