@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+}
+
+nav *{
+    color: orange
+}
+
+nav .left,
+nav .middle,
+nav .right{
+    flex: 1;
+}
+
+
+nav .left{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+
+}
+nav .left img{
+    width: 60px;
+}
+
+nav .middle{
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    padding: 2rem;
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 500px;
+    flex: 1 2 10rem;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    position: relative;
+}
+
+nav .right{
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+nav .right i{
+    font-size: 2rem;
+    color: black;
+}
+
+/* !--------------------------------------- */
+
+
+header{
+    background-color: bisque;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+/* ekran küçülünce fotoğraf üstte yazı altta kalsın istersek alttaki özelliği ekliyoruz! */
+flex-wrap: wrap;
+}
+
+.img{
+    /* border:2px solid purple; */
+flex: 1;
+display: flex;
+justify-content: center;
+/* fotoğraf kendi alanında sağda kalsın istersek just-cont: flex-end */
+}
+
+.text{
+    /* border: 2px solid blue; */
+    flex:1 300px;}
+
+section.img img{
+    width: 100%;
+max-width: 300px;
+min-width: 200px;}
