@@ -116,3 +116,26 @@ li {
     /* width: 20%; */
     flex:1;
 }
+
+
+
+
+
+ol{
+    background-color: aqua;
+    padding: 1rem;
+    list-style-type: none;
+    height: 50vh;
+    gap: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+
+    /* !flex-direction column olursa ortalama elemanlarımız olan align-items: center ile justify-content: content: tam ters olarak çalışıyor. align-items: normalde dikeyde ortalarken column açık olursa yatayda ortalıyor */
+
+
+ol li{
+    background-color: crimson;
+    border-radius: 30px;
+    padding: 1rem;
+}
