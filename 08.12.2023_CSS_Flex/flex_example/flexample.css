@@ -54,6 +54,7 @@ nav .right{
     justify-content: space-around;
     gap: 1rem;
 }
+
 nav .right i{
     font-size: 2rem;
     color: black;
