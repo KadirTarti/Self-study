@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        video{
+            filter:sepia(33);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <h1>Audio and Video</h1>     
+    
+    
+    <h3>Audio dosyası ekleme</h3>
+    <audio src="audio/audio.mp3" controls="" muted=""></audio>
+    <!--controls mutlaka yazılmalı. Yoksa ses dosyası çalışmaz. 
+        
+        Eğer muted tanımlarsak mute edilmiş şekilde açılır 
+         Autoplay tanımlanırsa sayfa açılır açılmaz çalmaya başlar-->
+
+    <h3>Video dosyası ekleme</h3>
+    <video src="./audio/nature.mp4" controls width="400"></video>
+
+    <!-- iframe özelliğini kullanarak bir youtube videosunu ekleyebiliriz. videonun share kısmından embed'e tıklayıp linki direk buraya kopyalıyoruz  -->
+
+    <br>
+
+    <h4>Youtube vs kaynaklardan video ekleme</h4>
+
+
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/sFSE37Ud0WM?si=4aEvPbFogJXBeFyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <br>
+
+    <h4>Site ekleme</h4>
+
+    <iframe src="https://clarusway.com/" frameborder="5" width="700" height="700"></iframe>
+
+
+    
+</body>
+</html>

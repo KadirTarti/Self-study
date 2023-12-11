@@ -1,0 +1,49 @@
+.box{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(28, 45, 92);
+    margin: 30px;
+    }
+
+.box1{
+    /* border-bottom-style: dashed;
+    border-color: red;
+    border-width: 10px;
+    bu üsttekileri tek tek vermek yerine bu üç özelliği border-bottom ile aynı anda verebiliriz */
+
+    border-bottom: 5px dashed blue;
+}
+
+/* ya da her kenara aynı border'ı vereceksek şöyle yaparız: */
+
+.box2{
+    border: 10px solid maroon;
+}
+
+.box3{
+    border: 15px inset indianred;
+}
+
+.box4{
+    border: 15px groove lightsalmon
+}
+
+/* border-radius kenarları yumuşatır */
+.box5{
+    border: 10px solid lightseagreen;
+    border-radius: 50px;
+}
+
+.box6{width: 200px;
+    height: 200px;
+    border: 10px solid rgb(226, 77, 77);
+    border-radius: 50%;}
+
+ul{background-color: rgb(176, 196, 216);}
+
+li{ list-style-type: none;
+    display: inline-block;
+    padding: 10px;}
+
+.active{border-bottom: 5px solid orange;}
+

@@ -1,0 +1,39 @@
+*{
+color: rgb(43, 8, 8);
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+}
+
+.box1{
+    /*isimle renk ekleme*/
+    background-color: lightseagreen;
+}
+
+/*rgb değeriyle renk verme*/
+.box2{
+    background-color: rgb(90,20,230)
+}
+
+/*rgb alfa değeri ile renk verme*/
+.box3{
+    background-color: rgba(112,112,112, 1);
+}
+
+.box4{
+    /*hexedecimal değer kullanarak renk verme*/
+    background-color: #fe9221;
+}
+
+.box5{
+    background-color: hsla(130, 100%,100%, 1);
+}
+
+.box6{
+    background-color: hsla(130, 80%, 80%, 1);
+}
+.box7{background-color: hsla(130, 60%,60%, 1);}
+
+.box8{background-color: hsla(130, 40%,40%, 1);}
+
+.box9{background-color: hsla(130, 20%,20%, 1);}
+.box10{}

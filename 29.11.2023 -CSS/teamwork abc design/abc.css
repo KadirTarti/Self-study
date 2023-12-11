@@ -1,0 +1,42 @@
+textarea{
+    resize: none;
+}
+
+h2{
+    text-align: center;
+}
+
+.formKisisel div label{
+    display: inline-block;
+    width: 150px;
+    margin: 5px;
+}
+
+p{
+    font-weight: bold;
+    margin-left: 50px ;
+}
+
+.labelContainer{
+    display: inline-block;
+    width: 300px;
+}
+
+.radioContainer{
+    display: inline-block;
+    margin: 5px;
+}
+
+.selectContainer{
+    display: inline-block;
+}
+
+#sektor{
+    position: relative;
+    bottom: 30px;
+}
+
+#diller{
+    position: relative;
+    bottom: 30px;
+}
