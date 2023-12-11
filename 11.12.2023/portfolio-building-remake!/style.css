@@ -10,8 +10,9 @@
 body{
     /* background-color: rgb(34, 20, 20); */
     font-family: "Judson", serif;
-    background-image: url(image/bckg1.jpg);
-    background-repeat: repeat;
+    background-image: url(image/bckg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     padding-bottom:500px;
 
