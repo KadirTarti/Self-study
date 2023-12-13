@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr 0.8fr;
+  grid-template-rows: 1fr 2fr 1fr 0.8fr;
+  gap: 1em;
+  height: 100vh;
+  width: auto;
+  color: white;
+
+.header {
+  border: 2px solid red;
+  background-color: purple;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.box1 {
+  border: 2px solid red;
+  background-color: yellow;
+  grid-column: 1/2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.box2 {
+  border: 2px solid red;
+  background-color: purple;
+  /* grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3; */
+  grid-area: 2-2-3-3;
+}
+
+.box3 {
+  border: 2px solid red;
+  background-color: purple;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.aside {
+  border: 2px solid red;
+  background-color: purple;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.mainContent {
+    border: 2px solid red;
+    background-color: purple;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .footer {
+    border: 2px solid red;
+    background-color: purple;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
