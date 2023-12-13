@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 20% 30% 21% 20%;
+    grid-template-columns: 25% 30% 25% 20%;
+    
+    grid-template-areas:
+    "hed hed hed hed"
+    "kral kral . can"
+    "foot foot foot foot"
+    "foot foot foot foot"
+
+}
+
+.box{
+    /* border: 1px solid darkblue; */
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+.box1{
+    background-color: darkcyan ;
+    grid-area: hed;
+}
+.box2{
+    background-color: darkgray;
+    grid-area: kral;
+}
+.box3{
+    background-color: rgb(255, 255, 255) ;
+
+}
+.box4{
+    background-color: darkred;
+    grid-area: can;
+}
+.box5{
+    background-color: orangered;
+    grid-area: foot;
+}
