@@ -4,54 +4,15 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(137, 125, 125);
-    padding: 10px;
 
 .container {
-    margin: 10px;
-    display:grid;    
-    row-gap: 20px;
-column-gap: 20px;
+    display:grid;
+    padding: 10px;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 15vh%);
+    
 }
 
-.head{
-    grid-area: 1/1/6/9;
-}
-
-.boxes{
-    display: flex;
-    justify-content: space-between;
-    grid-area: 6/1/16/7;
-}
-
-.small{
-    width: 130px;
-}
-.small.s1{
-    grid-area: 5/1/15/7;
-}
-
-.small.s2{
-    grid-area: 5/5/15/7;
-}
-
-.small.s3{
-    grid-area: 5/7/15/7;
-}
-
-.sidebar{
-    grid-area: 6/7/24/9;
-}
-
-main{
-    grid-area: 16/1/24/7;
-}
-
-footer{
-    grid-area: 24/1/30/9;
-}
-
-.head, .small, .sidebar, main, footer{
-    background-color: lightskyblue;
+.renk{
+    border: 2px solid red;
 }

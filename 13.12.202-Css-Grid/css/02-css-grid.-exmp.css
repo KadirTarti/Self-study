@@ -1,0 +1,68 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(4,20vh) 20vh 20vh;
+    grid-template-columns: repeat(4,25%);
+}
+
+.content{
+    border: 2px solid red;
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ /*! başlangıç değeri dahildir, bitiş değeri ise öncesindeki sayıyı kasteder */
+ /* 1.column dan başla 3. column a  kadar (3 dahil değil) beni büyüt */
+
+.content1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: lightcoral;
+}
+.content4{
+    background-color: orange;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.content6{
+    background-color: lightgoldenrodyellow;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    
+
+    /* !bunun kısa yolu */
+    grid-area: 2/3/4/5;
+}
+
+.content8{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: lightgreen;
+}
+
+
+.content9{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column: 3;
+    background-color: lightseagreen;
+}
+
+
+.content12{
+    background-color: purple;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column: 2;
+}
+
