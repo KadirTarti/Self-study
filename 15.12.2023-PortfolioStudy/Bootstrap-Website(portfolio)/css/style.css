@@ -74,6 +74,19 @@ section#instructor .card:hover{
 
 /*! -------------- 5- COURSES SECTION -------------- */
 
+section#courses .nav-item .nav-link.active {
+    background-color: var(--red);
+}
+
+section#courses .nav-link {
+    color: white;
+}
+
+.img-thumbnail {
+    width: 100%;
+}
+
+
 /*! -------------- 6- CONTACT SECTION -------------- */
 
 /*! -------------- 7- FOOTER ----------------------- */
