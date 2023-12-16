@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body class="bg-dark text-white">
+    <!-- !navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark pt-lg-3 sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logo" 
+            src="./imagess/logo.png" 
+            alt="" value="LOGO">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex m-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Start</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#products">Produkte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#pre-order">Vorbestellung</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">Über Uns</a>
+              </li>
+              
+          
+            </ul>
+
+            <div class="icons d-flex align-items-center ms-auto mt-2 ">
+                
+                  <a href="https://www.facebook.com/people/H%C3%BCnkar-B%C3%B6rek/100089883692700/?ref=xav_ig_profile_web" target="_blank" class="icon-link text-white"><i class="fab fa-facebook fa-lg me-2"></i></a>
+                  <a href="" class="icon-link text-white"><i class="fab fa-twitter fa-lg mx-2" target="_blank"></i></a>
+                  <a href="https://www.instagram.com/hunkarborekde/?img_index=1" class="icon-link text-white" target="_blank"><i class="fab fa-instagram fa-lg mx-2"></i></a>
+                
+              </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- !Image slider-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="6000">
+            <div style="background-image: url(./imagess/a2.jpeg);" class="slider-image">
+            </div>
+            </div>
+        
+            <div class="carousel-item" data-bs-interval="6000">
+            <div style="background-image: url(./imagess/a3.jpg);" class="slider-image">
+            </div>
+            </div>
+        
+            <div class="carousel-item" data-bs-interval="6000">
+            <div style="background-image: url(./imagess/a1.jpg);" class="slider-image">
+            </div>
+            </div>
+        
+
+          
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+      </div>
+
+    <!-- !Web seişte infos -->
+    <div class="container mt-5">
+        <h1 class="fw-bold gold">Lecker Brot!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iure id reprehenderit voluptatem nesciunt? Architecto, enim blanditiis cupiditate temporibus, incidunt modi quos quis corrupti, in ipsam exercitationem? Voluptatibus nesciunt illum ad maiores eum. Maxime error veritatis at nisi rerum neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptate, error debitis eum earum dicta fugit assumenda aliquam! Eaque facilis, eos a, corrupti blanditiis quas quam vel assumenda sunt dolorem praesentium consequuntur sequi dignissimos numquam consequatur perferendis dicta. Quas, laboriosam?
+        </p>
+    </div>
+
+    <!-- !Produktübersicht -->
+    <div id="products" class="container ">
+        <h2 class="gold fw-bold">Unsere Produkte</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta temporibus suscipit dolorum deserunt, adipisci labore cupiditate officia, placeat laboriosam culpa rem! Dolor dicta optio qui tempore eligendi explicabo suscipit corporis voluptatum corrupti cum omnis ad sunt eius sint placeat recusandae facilis iure, rerum blanditiis. Libero dicta officiis nisi veniam eos.</p>
+
+
+        <div class="card-group text-dark p-4">
+            <div class="card">
+              <div style="background-image: url(imagess/Boreks.jpeg);" class="card-image">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-2">Türkische Wasserbörek</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+           
+            <div class="card">
+                <div style="background-image: url(imagess/Cake1.jpeg);" class="card-image">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-2">Kuchen</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+         
+            <div class="card">
+                <div style="background-image: url(imagess/Bakalava2.jpeg);" class="card-image">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-2">Baklava</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+        <div class="card-group text-dark  p-4">
+            <div class="card">
+              <div style="background-image: url(imagess/Cookies&Baklavas.jpeg);" class="card-image">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-2">Kekse, salzige Snacks, Baklava</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+           
+            <div class="card">
+                <div style="background-image: url(imagess/Lahmacuns.jpeg);" class="card-image">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-2">Lahmacun</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+         
+            <div class="card">
+                <div style="background-image: url(imagess/SesamRinge&Kruvasan.jpeg);" class="card-image">
+                </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold fs-2">Sesamringe & Croissant</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+            </div>
+
+          </div>
+    </div>
+
+    <!-- !Vorbestellung -->
+        <section id="pre-oerder" class="order-form m-4">
+            <div class="container pt-4">
+                <div class="row">
+                    <div class="col-12 px-4">
+                        <h2 class="gold">Vorbestellung für die Feiern</h2>
+                        <span>bzw. Geburtstag, Jubiläum, Ausstellung</span>
+                        <hr class="mt-1" />
+                    </div>
+          
+                    <div class="col-12">
+                        <div class="row mx-4">
+                            <div class="col-12">
+                                <label class="order-form-label"></label>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-outline">
+                                    <label class="form-label" for="form1">Vorname</label>
+                                    <input type="text" id="form1" class="form-control order-form-input" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-2 mt-sm-0">
+                                <div class="form-outline">
+                                    <label class="form-label" for="form2">Nachname</label>
+                                    <input type="text" id="form2" class="form-control order-form-input" />
+                                </div>
+                            </div>
+                        </div>
+          
+                        <div class="row mt-3 mx-4">
+                            <div class="col-12">
+                                <label class="order-form-label">Art der Produkte, die Sie bestellen möchten</label>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-outline">
+                                    <input type="text" id="form3" class="form-control order-form-input" />
+                                </div>
+                            </div>
+                        </div>
+          
+                        <div class="row mt-3 mx-4">
+                            <div class="col-12">
+                                <label class="order-form-label">Zusätzlicher Hinweis für Ihre Bestellung</label>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-outline">
+                                    <input type="text" id="form4" class="form-control order-form-input" />
+                                </div>
+                            </div>
+                        </div>
+          
+                        <div class="row mt-3 mx-4">
+                            <div class="col-12">
+                                <label class="order-form-label" for="date-picker-example">Datum der Abholung</label>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-outline datepicker" data-mdb-toggle-button="false">
+                                    <input
+                                    type="text" class="form-control order-form-input" id="datepicker1" data-mdb-toggle="datepicker" />
+                                   
+                                </div>
+                            </div>
+                        </div>
+          
+                        <div class="row mt-3 mx-4">
+                            <div class="col-12">
+                                <label class="order-form-label">Anschrift</label>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-outline">
+                                    <input type="text" id="form5" class="form-control order-form-input" />
+                            
+                                </div>
+                            </div>
+                            <div class="col-12 mt-2">
+                                
+                            </div>
+                            <div class="col-sm-6 mt-2 pe-sm-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="form7">Stadt</label>
+                                    <input type="text" id="form7" class="form-control order-form-input" />
+                                    
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-2 ps-sm-0">
+                                <div class="form-outline">
+                                    <label class="form-label" for="form8">Kreis</label>
+                                    <input type="text" id="form8" class="form-control order-form-input" />
+                                    
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-2 pe-sm-2">
+                                <div class="form-outline">
+                                    <label class="form-label" for="form9">PLZ</label>
+                                    <input type="text" id="form9" class="form-control order-form-input" />
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+          
+                        <div class="row mt-3 mx-4">
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                    <label class="form-check-label" for="flexCheckDefault">Ich bin sicher, was ich bestelle!</label>
+                                </div>
+                            </div>
+                        </div>
+          
+                        sbumişt
+                    </div>
+                </div>
+            </div>
+          </section>
+
+
+
+
+
+
+
+    </div>
+    <!-- !Über uns -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
