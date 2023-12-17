@@ -1,0 +1,60 @@
+#banner{
+    background-image: url(./assets/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    background-position: center center;
+}
+.redicon{
+    background-color:#DC3545;
+    padding: 2rem;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+#team img{
+    width: 250px;
+    height: 250px;
+    border: gray solid .5rem;
+    border-radius: 50%;
+}
+#team a{
+    color: white;
+  
+   
+    
+  }
+  #Contact{
+    background-image: url(./assets/map.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.purple{
+    color:#8211b3 !important;
+    font-weight: 400;
+}
+
+.icon{
+ 
+   background-color:black;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+    margin-left: .5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.iconcontainer {
+    border:1px solid red;
+}
