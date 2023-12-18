@@ -92,6 +92,15 @@ section{
     scroll-margin-top: 88px;
 }
 
+.st-left{
+    flex:5;
+    margin: 20px;
+}
+
+.st-right{
+    flex:4;
+}
+
 /*! -------------- 5- COURSES SECTION -------------- */
 
 section#courses .nav-item .nav-link.active {
