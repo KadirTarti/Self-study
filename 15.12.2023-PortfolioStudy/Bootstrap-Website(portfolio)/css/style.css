@@ -1,9 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --red: #dc3545;
 }
 
 
 /*! -------------- 1- NAVBAR ----------------------- */
+.navbar{
+    border-bottom: 2px solid purple;
+    opacity: .9;
+}
+
 .navbar-nav{
     font-size: 1.2rem;
     text-transform: uppercase ;
@@ -70,7 +79,18 @@ section#instructor .card:hover{
     transform: scale(1.03);
 }
 
+.card-text::-webkit-scrollbar {
+    display: none;
+}
+/* CARD'LARDA UZUN İÇERİĞİ DİĞERLERİ İLE AYNI SEVİYEYE GETİRİP SCROLLBAR'I GİZLEDİK */
+
+
+
 /*! -------------- 4- STUDENTS SECTION ------------- */
+
+section{
+    scroll-margin-top: 88px;
+}
 
 /*! -------------- 5- COURSES SECTION -------------- */
 
@@ -82,11 +102,50 @@ section#courses .nav-link {
     color: white;
 }
 
-.img-thumbnail {
-    width: 100%;
+
+section#courses .nav-pills{
+    font-size: 0.8rem;
 }
 
 
 /*! -------------- 6- CONTACT SECTION -------------- */
 
+section#contact i{
+    color: var(--red) !important;
+}
+
+section#contact a{
+    color: var(--red) !important;
+    text-decoration: none;
+}
+
+/* .btn-submit{
+    background-color: var(--red);
+    color: white;
+}
+
+.btn-submit:hover{
+    background-color: #c2414d;
+    color: white;
+} */
 /*! -------------- 7- FOOTER ----------------------- */
+
+footer i{
+    color: white;
+    font-size: 2rem;
+    margin-right: 0.8rem;
+    transition: all 1s;
+}
+
+footer i:hover{
+    color: var(--red);
+    transition: all 1s;
+    
+}
+
+/* !button */
+.btn-up{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
