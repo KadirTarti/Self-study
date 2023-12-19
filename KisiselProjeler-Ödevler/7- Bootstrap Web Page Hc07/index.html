@@ -14,20 +14,16 @@
 </head>
 
 <body>
-  <!-- ----------------------------------------------------------------------- -->
-  <!--                                 navbar                                  -->
-  <!-- ----------------------------------------------------------------------- -->
-  <nav class=" navbar navbar-dark navbar-expand-lg bg-dark">
+  <!-- !navbar -->
+  <nav class=" navbar navbar-dark navbar-expand-lg bg-dark shadow-lg fixed-top">
     <div class=" container-fluid">
-      <a class="navbar-brand" href="#">
-        <h2 class="text-white">Harvey Tech</h2>
+      <div class="logoHar d-flex">
+        <a class="navbar-brand" href="#">
+        <h4 class="logoHar text-white">Harvey Tech</h4>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class=" navbar-toggler-icon"></span>
-      </button>
+      </div>
       <div class=" collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-3">
+        <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0">
           <li class=" nav-item">
             <a class="nav-link " aria-current="page" href="#Services">Services</a>
           </li>
@@ -47,27 +43,32 @@
       </div>
     </div>
   </nav>
-  <div id="banner" class="container-fluid d-flex align-items-center">
-    <div class="container text-center ">
+
+   <!-- !banner -->
+  <div id="banner" class="container-fluid d-flex align-items-center justify-content-center">
+    <div class="container text-center">
       <h4 class="display-6 purple">The IT Career of Your Dreams Starts Here!</h4>
-      <h3 class="display-3 purple">Harvey Tech!</h3>
+      <h3 class="harTech display-1 purple">Harvey Tech!</h3>
       <button class="btn btn-danger">Our Services</button>
     </div>
   </div>
+
+  
   <main>
-    <div id="Services" class="text-center">
+     <!-- !services-->
+    <div id="Services" class="text-center mt-5">
       <h2 class="display-3 text-center">Services</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, doloribus.</p>
       <article>
 
-        <div class="row g-3">
+        <div class="row g-3 mt-4">
           <div class="col-12 col-md-4">
             <span class="redicon"> <i class="fas fa-code fa-5x text-white"></i></span>
             <h5>Programming</h5>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, a!</p>
           </div>
           <div class="col-12 col-md-4">
-            <span class="redicon"><i class="fab fa-palette fa-5x text-white"></i></span>
+            <span class="redicon"><i class="fas fa-palette fa-5x text-white"></i></span>
 
             <h5>Design</h5>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, a!</p>
@@ -81,10 +82,14 @@
     </div>
     </article>
 
-    <div id="Portfolio" class=" text-center bg-light">
-      <h2 class="display-3">Portfolio</h2>
+
+
+    <!-- !portfolio -->
+    <div id="Portfolio" class=" text-center bg-light mt-5 border-dark">
+        <h2 class="display-3">Portfolio</h2>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, dolorum quasi? Neque consectetur odio
         placeat inventore perferendis quibusdam omnis deleniti.</p>
+
       <div class="row g-3">
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2">
           <div class="card">
@@ -181,7 +186,7 @@
 
 
 
-
+ <!-- !about us-->
     <div id="About" class="bg-white "></div>
     <div class="aboutus p-3 text-center">
       <h2 class="display-3 text-center">About us</h2>
@@ -211,6 +216,7 @@
       </div>
     </div>
 
+     <!-- !our team -->
     <div id="ourteam" class="text-center container-fluid bg-light ">
       <h2 class="display-3 ">Our Team</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et deleniti quas at magni, iusto voluptates neque
@@ -218,7 +224,7 @@
 
       <div class="row">
         <div class="col-12 col-sm-12 col-md-4">
-          <img src="https://picsum.photos/id/566/600/400" alt="">
+          <img src="https://picsum.photos/id/566/600/400" alt="" width="">
           <h3>Mark Madisson</h3>
           <p>Web developer</p>
           <div class=" d-flex justify-content-center align-items-center">
@@ -250,7 +256,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-4">
-          <img src="https://picsum.photos/id/111/600/400" alt="">
+          <img src="https://picsum.photos/id/111/600/400" alt="" width="200px">
           <h3>Mark Madisson</h3>
           <p>Web developer</p>
           <div class="  d-flex justify-content-center align-items-center ">
@@ -321,7 +327,8 @@
   </div>
 <br><br>
 
-  </div>
+ <!-- !footer -->
+
   <footer class="text-center p-5">
     <div>
       All Rights Reserved ©
