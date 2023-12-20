@@ -80,4 +80,4 @@ toplam=19+21
 console.log(toplam);  //! let'le tanımlı değeri hemen değiştirip devam edebiliyorsun. hata vermiyor. const hata veriyor. Bir kere tanımlayabilirsin diyor. Local'de yazarsak onu alıyor  son değer olarak.
 
 // önemli
-// !sadece YERELDE tanımlanana let GLOBAL'den erişilemiyor
+// !sadece YERELDE tanımlanana let GLOBAL'den erişilemiyor!
