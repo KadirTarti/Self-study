@@ -1,0 +1,16 @@
+.banner {
+    background: url(./img/banner.jpeg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: purple;
+    height: 100vh;
+}
+
+.container i{
+    font-size: 5rem;
+    background-color: rgb(167, 37, 37);
+    color: white;
+    padding: 2rem;
+    border-radius: 50%;
+}
