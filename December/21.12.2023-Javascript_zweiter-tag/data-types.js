@@ -148,9 +148,69 @@ console.log(typeof sayi);
     let job= "Fullstack developer"
     console.log("Personelimiz "+isim+" "+soyisim+" kurumumuzda "+job+" olarak çalışmaktadır");
     // yerine template literal ile şöyle yazabiliriz
-    console.log(`Personelimiz ${isim} ${soyisim} kurumumuzda ${job} olarak çalışmaktadır`);
+console.log(`Personelimiz ${isim} ${soyisim} 
+kurumumuzda 
+    
+${job} olarak çalışmaktadır`);  //ayrıca bunda alt satır içinters slash gerekmiyor
     //!   BU ÖNEMLİ BİR YAPI İMİŞ ....
 
 
-    
 
+/* ----------------------------------  */
+//!           BOOLEAN DATA TYPE        */
+/* ----------------------------------  */
+    //   true veya false değeri tutar
+
+    let isOpen=true
+    console.log(typeof isOpen);
+
+    let isSmall=4<15
+    console.log(isSmall);
+
+    sifre="3de4"
+    let kontrol=(sifre==="3de4")
+    console.log(kontrol);
+    console.log(typeof kontrol);
+
+
+
+    
+/* ----------------------------------  */
+//!         UNDEFINED DATA TYPE        */
+/* ----------------------------------  */
+// bir değişkene bir değer atamadığınız zaman ve
+// bir fonksiyon geri değer döndürmüyorsa undefined olur
+
+let val; //! undefined
+console.log(val);
+
+val=2817
+console.log(val);
+
+function example(){
+    let toplam=43+13
+    // return toplam  //!normalde bu satır açık olmalı. ama return unutulursa undefined gelir
+}
+
+console.log(example());
+
+
+/* ----------------------------------  */
+//!          NULL   DATA   TYPE        */
+/* ----------------------------------  */
+
+let empty=null
+console.log(empty);  // konsolda null yazar. özellikle REACT'da veriler gelmediği zaman doldurulması gereken yerlerde kullanılır.
+// ! undefined ile null farklı. null daha çok veri gelecek yerleri yazılımı yazarken boş bırakıp geçmek için...
+
+
+
+
+// *********** NON-PRIMITIVE DATA TYPE **********************
+// array
+let karaman=['kalem', 'silgi', "defter"]
+console.log(karaman);
+
+//object
+let nesne={name:'Johan', nachname:'Zimmermann', alter:'42'}
+console.log(nesne);
