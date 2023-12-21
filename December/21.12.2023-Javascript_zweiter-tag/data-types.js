@@ -214,3 +214,8 @@ console.log(karaman);
 //object
 let nesne={name:'Johan', nachname:'Zimmermann', alter:'42'}
 console.log(nesne);
+
+
+let a=27
+a %= 50
+console.log(a);
