@@ -14,3 +14,34 @@
     padding: 2rem;
     border-radius: 50%;
 }
+
+.about-us-text{
+    flex: 1
+}
+
+.about-us-img{
+    flex: 1
+}
+
+.avatar{
+    border: 10px solid lightgray;
+    border-radius: 50%;
+}
+
+.container .fontlar i{
+    font-size: 20px;
+    background-color: #333333;
+    color: white;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.contact{
+    background-image: url(img/map.jpeg);
+    background-size: cover;
+    height: 60vh;
+    width: 100vw;
+}
