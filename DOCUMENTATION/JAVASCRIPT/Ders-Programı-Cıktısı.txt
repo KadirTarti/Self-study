@@ -1,0 +1,29 @@
+Write the code that gives output according to the day value entered from the console, with a switch-case structure.
+Program
+Monday, Tuesday, Wednesday, Thursday -> InClass
+Friday -> Teamwork
+Saturday -> InClass+ Workshop
+Sunday -> Self-Study
+Otherwise -> Wrong day entered.
+
+
+// Get the day from the user
+let day = prompt("Enter the day of the week:").toLowerCase();
+
+// Perform the corresponding action based on the day
+switch (day) {
+  case "monday":
+  case "tuesday":
+  case "wednesday":
+  case "thursday":
+      console.log("InClass");
+      break;
+  case "friday":
+      console.log("Teamwork");
+      break;
+  case "saturday":
+      console.log("InClass + Workshop");
+      break;
+  case "sunday":
+      console.log("Self-Study");
+      break;

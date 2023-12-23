@@ -1,0 +1,46 @@
+
+4 İşlem hesap makinesini yazınız (2 adet sayiiçin)
+
+
+
+// ilk sayıyı alın
+let num1 = parseFloat(prompt("İlk sayıyı giriniz :"));
+
+// İşlemi seçin
+let operation = prompt("Enter the operation (+, -, *, /):");
+
+// ikinci sayıyı alın
+let num2 = parseFloat(prompt("İkinci sayıyı giriniz :"));
+
+// İşlem
+let result;
+
+switch (operation) {
+   case "+":
+       result = num1 + num2;
+       break;
+
+   case "-":
+       result = num1 - num2;
+       break;
+
+   case "*":
+       result = num1 * num2;
+       break;
+
+   case "/":
+       if (num2 !== 0) {
+           result = num1 / num2;
+
+       } else {
+           alert("Lütfen sıfır dışında bir rakam girin!");
+           return;
+       }
+       break;
+   default:
+       alert("Geçersiz İşlem!");
+       return;
+}
+
+// Print the result
+console.log(`The result of ${num1} ${operation} ${num2} is ${result}.`);

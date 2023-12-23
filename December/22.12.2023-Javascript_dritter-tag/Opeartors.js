@@ -55,6 +55,7 @@
     
     console.log(`${sure} dakika ${saat} saat ${dakika} dakikadır..!`);
 
+
 //^ -----------> increment/decrement Operatörü
         // !increment
     let d = 3
@@ -154,6 +155,7 @@ console.log('A' < 'a'); // büyük a ASCII kodu önce geldiği için daha küç�
 
   let y= a1 && b1 && c1
   console.log(y);  //false
+  console.log(saat);
 
   
   //*    ||  veya (or) anlamına gelir

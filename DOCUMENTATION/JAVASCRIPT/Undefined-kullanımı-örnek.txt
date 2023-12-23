@@ -1,0 +1,18 @@
+Kullanıcıdan 3 sayı alarak en büyüğünü yazdırın:
+
+const num1 = parseFloat(prompt("İlk numarayı girin: "));
+const num2 = parseFloat(prompt("İkinci numarayı girin: "));
+const num3 = parseFloat(prompt("Üçüncü numarayı girin: "));
+let enBuyuk;
+
+if(num1 >= num2 && num1 >= num3) {
+   enBuyuk= num1;
+}
+else if (num2 >= num1 && num2 >= num3) {
+   enBuyuk = num2;
+}
+else {
+   enBuyuk = num3;
+}
+
+console.log("En büyük numara " + enBuyuk);
