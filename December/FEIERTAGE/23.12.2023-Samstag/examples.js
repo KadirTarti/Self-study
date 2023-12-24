@@ -223,6 +223,8 @@ console.log(kredi);
 •100’den büyük veya 0‘dan küçük değerlerde hata mesajı verecektir.
 */
 
+
+/*
 let not = prompt(`Notunuzu girin: `)
 
 let harfNotu;
@@ -251,5 +253,64 @@ switch (true) {
 console.log(`Notunuzun harf notu olarak karşılığı: ${harfNotu}`);
     
 
+*/
+
+//*Girilen ay ismine karşılık gelen sıra numarası veren programı switch-case yapısı kullanarak yazınız.
+
+let ay = prompt(`Lütfen bir ay ismi girin: `)
+let girilenAy;
+
+switch (ay.toLocaleLowerCase) {
+    case "ocak":
+    girilenAy = 1
+    break;
+    case "subat":
+    girilenAy = 2
+    break;
+
+    case "mart":
+    girilenAy = 3
+    break;
+
+    case "nisan":
+    girilenAy = 4
+    break;
+
+    case "mayis":
+    girilenAy = 5
+    break;
+
+    case "haziran":
+    girilenAy = "Sıra6"
+    break;
+
+    case "temmuz":
+    girilenAy = "Sıra7"
+    break;
+
+    case "agustos":
+    girilenAy = "Sıra8"
+    break;
+
+    case "eylul":
+    girilenAy = "Sıra9"
+    break;
+
+    case "ekim":
+    girilenAy = "Sıra10"
+    break;
+
+    case "kasim":
+    girilenAy = "Sıra11"
+    break;
+
+    case "aralik":
+    girilenAy = "Sıra12"
+    break;
+
+    default: alert(`Lütfen ay ismini doğru ve Türkçe karakter kullanmadan yazdığınızdan emin olun`)
+}
+
+console.log(`Girdiğiniz ayın sıra karşılığı ${girilenAy}'dır`);
 
 
