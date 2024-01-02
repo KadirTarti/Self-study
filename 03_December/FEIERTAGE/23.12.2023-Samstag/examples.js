@@ -313,4 +313,3 @@ switch (ay.toLocaleLowerCase) {
 
 console.log(`Girdiğiniz ayın sıra karşılığı ${girilenAy}'dır`);
 
-
