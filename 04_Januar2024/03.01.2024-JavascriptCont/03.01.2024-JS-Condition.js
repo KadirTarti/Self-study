@@ -1,5 +1,5 @@
 //! Ternary yazımı
-
+/*
  const age = 12
  const gender = "erkek"
  const health = true
@@ -86,3 +86,53 @@ let borc= +prompt(`Lütfen borcunuzu girin`)
 let kredi;
 
 kredi = (maas*10) - borc > 5000 ? console.log(`kredi alabilirsiniz 🥳 `) :  console.log(`kredi alamazsınız😥`) 
+
+//? ORNEK2: console'dan 3 tamsayi alarak bunlarin en buyugunu
+//? yazdiriniz.
+
+//* 3 numara alın ve en büyüğünü tespit edin...
+
+let n1 = nummer1
+let n2 = nummer2
+let n3 = nummer3
+
+let biggest = n1
+
+if (n2>biggest) {
+    biggest = n2
+}
+if (n3>biggest){
+    biggest = n3
+}
+console.log(biggest);
+
+
+*/
+
+
+let not = prompt(`Notunuzu girin: `)
+
+let hARfnotu;
+
+switch (true) {
+    case not >= 91 && not <=100:
+        hARfnotu = "AA";
+        break;
+    case not >= 76 && not <= 90:
+        hARfnotu = "BA";
+        break;
+    case not >= 66 && not <= 75:
+        hARfnotu = "BB"
+        break;
+    case not >= 46 && not <= 65:
+        hARfnotu = "CC"
+        break;
+    case not >= 26 && not <=45:
+        hARfnotu = "DD"
+        break;
+    case not >= 0 && not <= 25:
+        hARfnotu= "FF"
+        break;
+        default: alert(`Lütfen sadece 0-100 arasında bir değer girin`);
+}
+console.log(`Notunuzun hARf notu olarak karşılığı: ${hARfnotu}`);
