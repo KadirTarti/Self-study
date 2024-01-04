@@ -256,7 +256,7 @@ console.log(`Notunuzun harf notu olarak karşılığı: ${harfNotu}`);
 */
 
 //*Girilen ay ismine karşılık gelen sıra numarası veren programı switch-case yapısı kullanarak yazınız.
-
+/*
 let ay = prompt(`Lütfen bir ay ismi girin: `)
 let girilenAy;
 
@@ -313,3 +313,6 @@ switch (ay.toLocaleLowerCase) {
 
 console.log(`Girdiğiniz ayın sıra karşılığı ${girilenAy}'dır`);
 
+*/
+
+console.log( "55"<56 == 67 === "67" || 253 % 11 && !false)
