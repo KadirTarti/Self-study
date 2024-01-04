@@ -1,0 +1,29 @@
+button{
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: $buttonColor;
+    margin-top: 1rem;
+    margin-left: .5rem;
+
+    &:hover{
+        background-color: lightgoldenrodyellow;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
+
+.button-error{
+    @extend .button;
+    background-color: red;
+}
+
+.button-success{
+    @extend .button;
+    background-color: green;
+}
+
+.button-warning{
+    @extend .button;
+    background-color: yellow;
+}

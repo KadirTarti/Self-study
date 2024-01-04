@@ -1,0 +1,9 @@
+@mixin myBox($backColor,$textColor, $yukseklik){
+    background-color: $backColor;
+    width: 25%;
+    height: $yukseklik;
+    border-radius: 10px;
+    color: $textColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
