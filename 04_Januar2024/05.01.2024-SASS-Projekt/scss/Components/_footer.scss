@@ -9,6 +9,7 @@
         }
     
     }
+    text-shadow: 2px 2px 2px black;
 }
 
 
@@ -19,6 +20,7 @@ footer.horizontal{
     justify-content: space-between;
     align-items: flex-end;
     padding: 1rem;
+    text-shadow: 2px 2px 2px black;
     @extend .link-style
 }
 
@@ -28,6 +30,7 @@ footer.vertical{
     justify-content: space-between;
     align-items: flex-end;
     padding: 2rem;
+    text-shadow: 2px 2px 2px black;
     .social-icons{
         display: flex;
         flex-direction: column;

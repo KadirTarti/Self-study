@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
     h2{
         font-size: 3rem;
         margin-bottom: 2rem;
@@ -24,8 +25,9 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
-        gap: 2rem;
+        justify-content: space-around;
+        width: 60%;
+        gap: 4rem;
     }
     .text-secondary{
         color: $secondary-Color;

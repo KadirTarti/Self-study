@@ -8,12 +8,13 @@
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/model-1.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 139, 0.5), rgba(0, 0, 139, 0.01)), url("../images/A1.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-shadow: 2px 2px 2px black;
 }
 .about-bgImg-container .about__bio-image {
   text-align: center;
@@ -23,7 +24,7 @@
   color: #ff652f;
 }
 .about-bgImg-container .about__bio-image p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin: 1.5rem;
   line-height: 1.5rem;
 }
@@ -48,7 +49,7 @@
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/model-1.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 139, 0.5), rgba(0, 0, 139, 0.01)), url("../images/A1.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -63,6 +64,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  text-shadow: 2px 2px 2px black;
 }
 .contact h2 {
   font-size: 3rem;
@@ -72,8 +74,9 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-around;
+  width: 60%;
+  gap: 4rem;
 }
 .contact .text-secondary {
   color: #ff652f;
@@ -82,7 +85,7 @@
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/model-1.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 139, 0.5), rgba(0, 0, 139, 0.01)), url("../images/A1.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -94,28 +97,30 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  text-shadow: 2px 2px 2px black;
 }
 .home__name {
   font-size: 5rem;
   padding: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid white;
   width: 100%;
 }
 .home__name--last {
   color: red;
   font-weight: 700;
+  text-shadow: 1px 1px 1px black;
 }
 
 .project-bgImg-container {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../images/model-1.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 139, 0.5), rgba(0, 0, 139, 0.01)), url("../images/A1.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-shadow: 2px 2px 2px black;
 }
 .project-bgImg-container .projects__bio-image {
   text-align: center;
@@ -135,18 +140,21 @@
   cursor: pointer;
   border-bottom: 5px solid #ff652f;
   position: relative;
+  padding: 1rem;
 }
 .projects__item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 30px;
 }
 .projects__item::after {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #ff652f;
+  background-color: lightblue;
   position: absolute;
+  border-radius: 30px;
   left: 0;
   opacity: 0;
   transition: all 1s;
@@ -155,6 +163,14 @@
   opacity: 0.7;
 }
 
+.middleh1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.link-style, footer.middle, footer.vertical .social-icons, footer.horizontal {
+  text-shadow: 2px 2px 2px black;
+}
 .link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
@@ -169,6 +185,7 @@ footer.horizontal {
   justify-content: space-between;
   align-items: flex-end;
   padding: 1rem;
+  text-shadow: 2px 2px 2px black;
 }
 
 footer.vertical {
@@ -176,6 +193,7 @@ footer.vertical {
   justify-content: space-between;
   align-items: flex-end;
   padding: 2rem;
+  text-shadow: 2px 2px 2px black;
 }
 footer.vertical .social-icons {
   display: flex;
@@ -205,10 +223,12 @@ footer.middle {
   padding: 1rem;
 }
 .nav__list {
-  text-align: right;
+  text-align: center;
 }
 .nav__item {
-  display: inline;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
 }
 .nav__link {
@@ -218,9 +238,10 @@ footer.middle {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   transition: all 1s;
+  text-shadow: 2px 2px 2px black;
 }
 .nav__link:hover {
-  color: blue;
+  color: rgb(176, 0, 0);
 }
 .nav__link--active {
   color: #ff652f;

@@ -12,16 +12,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
 
     &__name{
         font-size: 5rem;
         padding: 1rem;
         margin-bottom: 1rem;
-        border-bottom: 2px solid $text-Color;
         width: 100%;
         &--last{
             color: red;
             font-weight: 700;
+            text-shadow: 1px 1px 1px black;
         }
     }
 
