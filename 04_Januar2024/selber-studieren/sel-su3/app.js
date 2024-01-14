@@ -122,3 +122,18 @@ const toplama = (num1, num2, ...numbers) => {  //*num1 ve 2den kalanları rest o
     console.log(num1, num2);
 }
 toplama(2, 5, 6, 7, 8, 9)
+
+
+
+//! fonksiyon çağırma ***CALL  & invoke***
+
+function test (){
+    console.log(`Test fonksiyonunu çalıştır`);
+}
+test()
+
+
+function invokeILE (veri) {
+    veri()
+}
+invokeILE(test)
