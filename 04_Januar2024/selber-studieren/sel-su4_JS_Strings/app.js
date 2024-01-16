@@ -1,6 +1,6 @@
 let s1 = "Hello ";
 let s2 = "World!";
-let s3 = s1.concat('js '+ s2);
+let s3 = s1.concat("js " + s2);
 console.log(s3);
 
 /*
@@ -16,22 +16,20 @@ let str = "Blarusnay";
 
 console.log(str.charAt(0)); // B
 console.log(str.charAt(3)); // r
-console.log(str.charAt(str.length-1)); //y
+console.log(str.charAt(str.length - 1)); //y
 
 // Also we can use bracket notation `[]` to access the string elements
 
 console.log(str[0]); // B
 console.log(str[3]); // r
-console.log(str[str.length-1]); //y
+console.log(str[str.length - 1]); //y
 
 let isim = "Süleyman";
 console.log(isim[0]);
 
-
 //   What is the ouput of the following code?
 let x = "Alex";
-console.log (x.charAt(2)); //2
-
+console.log(x.charAt(2)); //2
 
 /*
 ➤ The includes() method specifies whether a string includes the characters of a specified string.
@@ -51,21 +49,18 @@ let strng = "Hello John, welcome to Clarusway.";
 let t = strng.includes("welcome");
 let f = strng.includes("Welcome");
 
-console.log (`t = ${t}`);
-console.log (`f = ${f}`);
+console.log(`t = ${t}`);
+console.log(`f = ${f}`);
 
+ad = "Tayfun";
 
-ad = 'Tayfun'
-
-
-function message (username) {
-    console.log(`Hello ${username}`);
+function message(username) {
+  console.log(`Hello ${username}`);
 }
 
-let sayHello = message
+let sayHello = message;
 
-sayHello("Fs Cohort DE08")
-
+sayHello("Fs Cohort DE08");
 
 // const msg1 = greet();
 // const msg2 = greet2();
@@ -78,20 +73,45 @@ sayHello("Fs Cohort DE08")
 //     return "Hello!"
 // };
 
+const m = (n1, n2) => {
+  n1 * n2;
+};
 
-
-const m = (n1,n2) =>{
-    n1 * n2
-}
-
-const r = m(3,5)
+const r = m(3, 5);
 console.log(r);
 
+let myName = "Anthony Harold";
 
-let myName = "Anthony Harold"
+myName = myName.slice(8);
+myName.toLowerCase();
+console.log(myName);
 
-myName = myName.slice(8)
+const user = {
+  name: "Carl",
+  surName: "kralli",
+  age: 42,
+  isMarried: true,
+  skills: ["HTML", "Javascript", "CSS", "Agile", "Jira"],
 
-myName.toLowerCase()
+  work: {deneme: 'pro'},
 
-console.log(myName)
+  siblings: [
+    {
+      name: "cenga",
+      surname: "version",
+      "tel numara": "+203 948209387409 3384"   //boşluk varsa tırnak içinde olmalı
+    },
+  ],
+
+  
+  getFullName: function () {
+    return `${this.name} ${this.surname}`
+  }
+};
+
+
+
+console.log(user);
+console.log(user.skills);
+console.log(user.work.deneme);
+console.log(user.siblings[0]["tel numara"]);
