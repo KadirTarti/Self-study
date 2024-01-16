@@ -233,4 +233,4 @@ function tersCevir (str) {
 tersCevir('Merhaba dünya, nasılsın bugün')
 tersCevir('kayak')
 tersCevir('kaynak')
-tersCevir('cannac')
+tersCevir('cannac') 

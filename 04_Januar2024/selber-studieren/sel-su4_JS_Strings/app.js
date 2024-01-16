@@ -56,3 +56,42 @@ console.log (`f = ${f}`);
 
 
 ad = 'Tayfun'
+
+
+function message (username) {
+    console.log(`Hello ${username}`);
+}
+
+let sayHello = message
+
+sayHello("Fs Cohort DE08")
+
+
+// const msg1 = greet();
+// const msg2 = greet2();
+
+// function greet () {
+//     return "Hello!"
+// }
+
+// const greet2 = function(){
+//     return "Hello!"
+// };
+
+
+
+const m = (n1,n2) =>{
+    n1 * n2
+}
+
+const r = m(3,5)
+console.log(r);
+
+
+let myName = "Anthony Harold"
+
+myName = myName.slice(8)
+
+myName.toLowerCase()
+
+console.log(myName)

@@ -169,3 +169,56 @@ console.log(tarkan.split(" "));  // boşluklardan ayırdı. 4 ayrı dizi eleman�
 console.log(tarkan.split("")); // hiçlikten ayır dediğimizde hepsini birbirinden ayırdı 24 eleman ortaya çıkardı
 console.log(tarkan.split("e")); // e'harflerinden ayırdı.. 5 elemanlı bir dizi yaptı
 console.log(tarkan.split("e", 2)); // e'harflerinden ayırdı..İLK İKİ ELEMANI ALIP bir dizi yaptı
+
+let months = " Jan / Feb / Mar / Apr / May / Jun / July / Aug/ Sep / Oct / Nov / Dec";
+console.log(months.split("/"));
+
+let date = "16.1.2024"
+console.log(date.split(".")); // "" içine yazdığımız ifade... bunu iptal et, buradan ayır gibi oluyor. burada nokta konduğu için noktasız 16 1 ve 2024 çıktı alıyoruz
+
+console.log(`Bugün ayın ${date.split(".")[0]}'sı`);  // bugün ayın 16'sı
+
+//stringi diziye çevir ilk 3 elemanı al
+let liste = "Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ;Chris Hand";
+console.log(liste.split(";", 3));
+
+let yeniListe = liste.split(";")
+console.log(yeniListe);
+
+//! join() --- diziye çevrilmiş olan stringi tekrar stringe çevirir
+console.log(yeniListe.join()); // () boş bırakınca aralara virgül koyarak çevirir
+console.log(yeniListe.join("-")); // değer girilirse o değeri yazarak çevirir
+
+
+
+
+//^     11 - Reverse metodu  (bir diziyi tersten yazdırma)
+//!   ÖNEMLİ bir metod
+
+let selam = "ey edip istanbulda pide ye" // adanada yazsaydık polindrom'dur çıkacaktı
+
+let tersten = selam.split("").reverse().join("")
+console.log(tersten);
+
+if(selam==tersten){
+    console.log("selam cümlesi polindrom bir cümledir" ); 
+ }else {
+     console.log("selam cümlesi polindrom değildir");
+ }
+
+
+
+ //^    12-   trim()           (tıraşlama)
+
+ const ramazan ="         Hoşgeldin    ya     Şehr-i Ramazan        "
+ console.log(ramazan);
+ console.log(ramazan.length);   // 51
+ console.log(ramazan.trim());  
+ console.log(ramazan.trim().length);  //27
+
+
+
+
+ //^    chaining     - zincirleme metod
+ let abc = "       İyilik yap denize at"
+ console.log(abc.trim().slice(0,7).toLowerCase());
