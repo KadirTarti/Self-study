@@ -62,8 +62,6 @@ let sezar = (kelime, rakam) => {
 console.log(sezar('Ifmmp!Xpsme', 1));
 
 
-
-
 //& String.prototype.concat()       Combines the text of two (or more) strings and returns a new string.
 // birleştirme metodu.. + ile aynı işlev
 
@@ -88,14 +86,12 @@ function harfler(yazi, rakam) {
         return [index].concat(harfler(yazi, index +1));
     }
  }
- 
  let harfIndex = harfler(yazi, 1);
  console.log(harfIndex);
 
 
 
 //& String.prototype.includes()    - içinde bu ifade var mı diye bakıyor
-
 
 
 let yazi2 = "Mit der Weiterentwicklung der Sprache etablierten JavaScript-Entwickler Bibliotheken"
@@ -186,6 +182,19 @@ console.log('y', y);
 
 // String.prototype.search()
 // Search for a match between a regular expression regexp and the calling string.
+
+
+
+
+let arr1 = ['b', 'd','c','a']
+ console.log(arr1.sort())
+
+ //Output ['a', 'b', 'c', 'd']
+
+let arr2 = ['a', 'b','c','d']
+console.log(arr2.join(''))
+
+
 
 
 
