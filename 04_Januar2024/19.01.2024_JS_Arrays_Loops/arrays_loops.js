@@ -42,7 +42,7 @@ checkElement("green"); // green diziye eklendi!
 //! örnek : rastgele renk getiren bir fonksiyon yazın
 const color = ['Red', 'Green', 'Blue','Green', 'Brown']
 
-function randomColor(color) {
+function randomColor(color) 
    let index = Math.floor(Math.random() * color.length);
    return color[index];
 }

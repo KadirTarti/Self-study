@@ -100,13 +100,11 @@ function isEvenOdd (sayi){
 
 
 
-
-
-
-
-function sumAll(){
+function sumAll(...arguments){
 
     let toplam=0
+    console.log(arguments);
+    
 
   for (let i=0; i < arguments.length; i++){
     toplam = toplam+arguments[i]
@@ -117,3 +115,10 @@ function sumAll(){
    console.log( sumAll (25, 34 , 56, 78, 12, 45, 87, 23))
 
 
+
+
+
+   for (let i=0; i <= 10; i++){
+    toplam = toplam+i
+  }
+    return toplam
