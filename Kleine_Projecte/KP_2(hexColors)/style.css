@@ -24,7 +24,7 @@ body {
 .hex-colors h1 {
     font-size: 2rem;
     margin: 40px;
-    animation: colorchange 5s infinite alternate ;
+    animation: colorchange 11s infinite alternate ;
 }
 
 .hex-colors h2 {
@@ -35,25 +35,42 @@ body {
 
 @keyframes colorchange {
     0%{
-        color: indigo;
+        color: darkred;
+    }    
+    10%{
+        color: darkorange;
     }    
     20%{
-        color: darkblue;
-    }    
-    40%{
         color: darkolivegreen;
     }    
+    30%{
+        color: indigo;
+    }    
+    40%{
+        color: darkslategray;
+    }    
+    50%{
+        color: darkblue;
+        
+    }    
     60%{
-        color: darksalmon;
+        color: darkblue;
+    }    
+    70%{
+        color: darkolivegreen;
     }    
     80%{
+        color: darkred;
+    }    
+    90%{
         color: darkslategray;
     }    
     100%{
         color: darkorange;
-    }    
 
 }
+}
+
 
 @media (max-width: 480px) {
     .hex-colors h1 {
