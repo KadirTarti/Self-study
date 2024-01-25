@@ -128,3 +128,65 @@ function changeEverySecondLetter(str) {
 }
 let str = "javascript";
 console.log(changeEverySecondLetter(str)); // Output: jZvZsZrZpZ
+
+console.clear()
+
+function prinThis (param) {
+  console.log('x');
+}
+prinThis ('tapas')
+
+
+
+//!    rest operator
+function collectThinga (x, ...y) {
+  console.log(x);
+  console.log(y);
+}
+collectThinga (1,2,3,4,5,6,9,77,88,96)
+
+
+
+//!  arrow functions
+const add = (x,y) => {
+  return x+y
+}
+console.log(add(5,2));
+
+const madd = (x,y) => x+y;
+console.log(madd(24,2));
+
+
+
+//!   nested functions
+function outer () {
+  console.log('outer');
+    function inner () {
+      console.log(`inner`);
+    }
+    inner();  // iç fonksiyonu içeride çağırmak gerekiyor
+}
+outer()  //  önce outer yazar sonra inner
+
+
+
+//!    global and function SCOPE
+//* function scope'a globalden ERİŞİLEMEZ !! 
+//^ bir fonksiyon tanımlandığı kapsam içindeki (global - lokal) bütün değişkenlere erişebilir!
+
+function doSomething () {
+  let x = 10;
+  const y = 20;
+  var z = 30;
+
+  console.log(x,y,z);
+}
+doSomething ();
+//! console.log(x,y,z);    hata veriyor globalden ERİŞİLEMİYOR
+
+
+//^ const'a funck içindekilerle aynı değerleri globalde de tanımlayabiliyoruz
+let x = 10;
+const y = 20;
+var z = 30;
+doSomething()   // 10 20 30
