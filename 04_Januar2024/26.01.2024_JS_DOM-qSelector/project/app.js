@@ -112,3 +112,6 @@ inputdiv.after(baslik)
 inputdiv.innerHTML += `<h1 class="title text-primary">Programlama Dilleri</h1>`
 
 //^ üstteki inbputdiv after ile yazıldığı için ekranda altta çıkıyor
+
+
+// kısayol ile daha önce event yapılmış bir tag'in içeriğine ekleme yaparsak hata alabiliriz. bu nedenle yeri olmayan bir etiketi kısayolla eklemek istiyorsak htmml'de onun için boş bir div açmalıyız.
