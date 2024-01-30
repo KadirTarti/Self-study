@@ -113,7 +113,7 @@ const calculateResult = () => {
 }
 
 const draw = () => {
-    messagePar.textContent = `It's a draw!  ☮️`;
+    messagePar.textContent = `It's a draw!  🦀`;
     messagePar.style.color= "black"
     messagePar.style.backgroundColor= YELLOW
     scoreCardSection.style.color= YELLOW
@@ -146,3 +146,45 @@ const openModal = () =>{
         document.querySelector('.modal').style.backgroundColor=GREEN
     }
 }
+
+
+//! localStorage kullanımı ... set, get, remove item
+// localStorage.setItem('highScore', 10)
+// localStorage.setItem('Hallo', 'Welt')
+
+// let x = localStorage.setItem('highScore')
+
+// console.log(typeof x);
+
+// localStorage.removeItem('Hallo')
+
+
+//&  update top Score
+
+// ilk başlangıçta localstorage de tutulan skoru yazdır
+
+const storedScore = localStorage.getItem('highScore')
+const topScore = storedScore ? `10 : ${storedScore}` : "0 : 0"
+
+//console.log(topScore);
+
+//ilk açılışta high score varsa yaz yoksa 0 : 0 yaz
+domTopScore.textContent = topScore
+
+const updateTopScore = () => {
+    //eğer ilk oynanışsa veya oyun sonunda update yapılacaksa
+    if (!storedScore || storedScore > +pcScoreSpan.textContent){
+        localStorage.setItem('highScore', pcScoreSpan.textContent)
+    }
+}
+
+//& localStorage'daki verinin kullanıcı onayıyla silinmesi
+
+domTopScore.addEventListener('dblclick', ()=>{
+    if(domTopScore.textContent != "0 : 0"){
+        if (confirm ('Are you sure? Do you want to reset the top score?')){
+            localStorage.removeItem('highScore');
+            domTopScore.textContent = "0 : 0"
+        }
+    }
+})
