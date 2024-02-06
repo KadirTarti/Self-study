@@ -1,6 +1,3 @@
-//* ======================================================
-//*                     IOS CALCULATOR
-//* ======================================================
 
 
 const numberButtons = document.querySelectorAll('.num');  // tüm numaraları çağırdık
@@ -52,19 +49,20 @@ const ekranaHazirlik = (num) =>{
 
  // eşittir yada percent a basıldıktan sonra girilen number tek başına ekranda görünsün,çünkü yeni işlem başlıyor(ekranda 72 yazan işlem sonucu varken 5 e basınca 725 olmasın, sadece 5 olsun)
 
-    if (equalAndPercentPressed == true) {
+ if (equalAndPercentPressed==true) {
 
-      equalAndPercentPressed = false;
+  equalAndPercentPressed=false;
 
-      altEkranText = num;
-      return;   // bu döngüden çık bu işini globaldeki değişkeni değiştirerek bitirdi ama bişey döndürmeyecek, daha önceki 0 ı da yok sayacak
-  
- };
+  altEkranText = num;
+
+  //! bu döngüden çık bu işini globaldeki değişkeni değiştirerek bitirdi ama bişey döndürmeyecek, daha önceki 0 ı da yok sayacak
+  return;
+ }
 
 
  //?bütün şartları başarı ile geçtiyse basılan numaraları arka arkaya ekle
   altEkranText += num;
-};
+}
 
 
 
@@ -73,7 +71,8 @@ const ekranaHazirlik = (num) =>{
 const updateEkran = () => {
   
   currentDisplay.textContent = altEkranText;
- 
+
+  
 
 
   //?işlem girilince
@@ -114,7 +113,7 @@ equalButton.onclick=()=>{
   // üstteki yapılan işlem sonucu ekrana yansıtan fonksiyon ->
   updateEkran();
 
-  equalAndPercentPressed = true
+  equalAndPercentPressed == true
 };
 
 
@@ -170,10 +169,8 @@ document.querySelector('.percent').onclick =()=>{
 
   altEkranText = altEkranText/100
   updateEkran()
-
-  altEkranText=''
   
-  //equalAndPercentPressed = true
+  equalAndPercentPressed = true
   // veya  altEkranText = '' 
   
 }
