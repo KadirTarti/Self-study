@@ -44,12 +44,12 @@ body{
 }
 
 .about-us-img img{
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 .avatar{
-    border: 10px solid lightgray;
-    border-radius: 50%;
+    border: 4px solid darkblue;
+    border-radius: 30%;
 }
 
 .container .fontlar i{
@@ -88,3 +88,8 @@ body{
   .card-title{
     font-weight: bold;
   }
+
+#map{
+    margin: 50px auto;
+    width: 100%;
+}
