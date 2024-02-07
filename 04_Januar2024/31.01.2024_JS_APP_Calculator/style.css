@@ -12,13 +12,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background: radial-gradient(circle, rgba(40,165,255,1) 0%, rgba(11,0,119,1) 100%);
   }
   
   .calculator {
-    background: black;
+    background: rgb(185, 222, 236);
     border-radius: 50px;
     color: white;
+    text-shadow: 0px 2px 1px black;
     height: 840px;
     width: 500px;
     padding: 20px;
@@ -32,16 +33,22 @@
     width: 100%;
     text-align: right;
     padding: 20px;
-    font-size: 60px;
+    font-size: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-weight: 700;
+    border: 7px solid darkgray;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
   }
   .previous-display {
     opacity: 0.5;
     font-size: 30px;
     overflow: hidden;
   }
+
   
   .buttons-container {
     display: grid;
@@ -54,8 +61,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #333;
-    border-radius: 50%;
+    background: #4f4f4f;
+    border-radius: 20%;
     cursor: pointer;
     font-size: 45px;
     height: 100px;
@@ -66,20 +73,22 @@
   .button.function {
     color: black;
     background: #a5a5a5;
+    font-size: 40px;
+    font-weight: 500;
   }
   
   .button.operator {
-    background: orangered;
+    background: rgb(183, 86, 51);
     /* background: #f1a33c; */
   }
   
   .equal {
-    background: #f1a33c;
+    background: #dcab6a;
   }
   
   
   .button.number-0 {
-    border-radius: 55px;
+    border-radius: 20px;
     grid-column: 1 / span 2;
     justify-content: flex-start;
     padding-left: 43px;
