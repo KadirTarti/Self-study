@@ -13,6 +13,7 @@ body{
     font-size: 1.3rem;
 }
 
+
 .navbar{
     border-bottom: 2px solid #949494;
 }
@@ -63,7 +64,9 @@ p{
 }
 
 
-#products, #about{padding-top: 60px;}
+#products, #pre-order, #about{padding-top: 8rem;}
+
+
 
 .card-image{
     height: 400px;
@@ -74,10 +77,6 @@ p{
 .card{
     border-radius: 30px;
     overflow: hidden;
-}
-
-.col-12 button{
-    
 }
 
 #btnSubmit{
@@ -100,7 +99,6 @@ p{
 }
 
 
-
 /* !überuns */
 .about-image{
     width: 200px;
@@ -120,7 +118,6 @@ p{
         display: flex;
         flex-flow: column wrap;
     }
-
     
     .card-image{
         border-radius: 20px;
