@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p class="productTotal">Product Total: ${product.price * product.quantity} TL</p>
             `;
             
-            productsContainer.appendChild(productDiv);
+            // productsContainer.appendChild(productDiv);
             
             // Artırma ve Azaltma butonlarına event listener ekler
             productDiv.querySelector('.increaseBtn').addEventListener('click', function() {
@@ -73,3 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Sayfanın yüklemesi tamamlandığında  ürünleri ve sepeti göster
     window.onload = displayProducts;
 });
+
+
+const r = [9,8,7,6][1,2];
+console.log(r);
