@@ -9,7 +9,8 @@ function ready(){
     console.log(removeCartItemButtons);
     for (let i = 0; i < removeCartItemButtons.length; i++) {
         let button = removeCartItemButtons[i]
-        button.addEventListener('click', removeCartItem)
+        button.addEventListener('click', function(event) {
+        })
     }
 }
 
