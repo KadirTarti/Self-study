@@ -1,0 +1,145 @@
+*{
+    margin:.0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* border: 2px solid red; */
+}
+
+body{
+    background-image: url(img/bg-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+
+.container{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 65px 55px 54px;
+    border-radius: 10px;
+}
+
+#title{
+    text-align: center;
+    padding-bottom: 49px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.ilk-icon, .ikinci-icon{
+    border-bottom: 2px solid rgba(87, 87, 87, 0.349);
+}
+
+.login-info{
+    width: 100%;
+    margin: auto;
+}
+
+
+.login-info input{
+    border: none;
+    margin-top: 10px 0;
+    padding: 10px;
+    
+    width: 94%;
+    outline: none;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.forgot{
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.login{
+    width: 100%;
+    margin: auto;
+    }
+
+.login input{
+    width: 100%;
+    display: inline-block;
+    /* background-image: url(./img/bg-01.jpg); */
+    background: rgb(29,215,209);
+    background: linear-gradient(90deg, rgba(29,215,209,1) 0%, rgba(21,126,226,1) 38%, rgba(218,69,252,1) 89%);
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.login-with{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 120px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icons{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fa-brands{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(75, 42, 165);
+    color:white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding-top: 15px;
+    
+}
+
+.fa-brands:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+.fa-facebook-f{
+    background-color: #3B5998;
+}
+
+.fa-twitter{
+    background-color: #1DA1F2;
+}
+
+.fa-google{
+    background-color: #EA4335;
+}
+
+.sign-up{
+    text-align: center;
+    color: rgb(63, 63, 63);
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.lastSign{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+
+
+.lastSign:hover{
+    transition-duration: 0.5s;
+    color: purple;
+}

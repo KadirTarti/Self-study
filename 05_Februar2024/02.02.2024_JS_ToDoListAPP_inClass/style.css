@@ -8,7 +8,8 @@
   
   body {
     height: 100vh;
-    background-color:#56596d;
+    background-image: url(images/colorback3.jpg);
+    background-size: cover;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
@@ -20,19 +21,21 @@
     height: 80vh;
     border-radius: 50px;
     box-shadow: 2px 2px 20px rgba(34, 24, 24, 0.911);
-    background: linear-gradient(90deg, rgb(243, 252, 255), rgb(155, 177, 183));
+    background-image: url(images/paper2.avif);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
   header {
+    font-family: cursive;
     font-size: 2.2rem;
-    font-weight: 600;
+    font-weight: 900;
     color: rgb(31, 90, 111);
-    text-shadow: 2px 2px 2px rgb(21, 83, 130);
     text-align: center;
     padding: 1rem;
+    padding-top: 2rem;
   }
   
   
@@ -88,14 +91,14 @@
     display: flex;
     /* flex-direction: row; */
     align-items: center;
-     background-color: #eee;
+     background-color: #ffbb86;
     font-weight: bold;
   }
   
   
   
   ul li:nth-child(even) {
-    background: #dde6f5;
+    background: #ccdefe;
   }
   
   li i {
