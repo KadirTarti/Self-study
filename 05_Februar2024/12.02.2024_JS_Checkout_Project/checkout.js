@@ -11,6 +11,33 @@ let sepettekiler = [
   { name: "Antique Clock", price: 69.99, piece: 1, img: "./img/photo3.jpg" },
 ];
 
+
+//! BUBLING !!   stop propagation
+
+let flag = false
+
+
+let h1 = document.querySelector('h1')
+
+h1.onclick=(e)=>{
+  flag = !flag
+  flag 
+  ? (h1.textContent = 'Checkout Project')
+  : (h1.textContent = 'Shopping Site')
+
+  e.stopPropagation();
+};
+
+let header = document.querySelector('header');
+
+header.onclick =()=> {
+  flag = !flag;
+  flag ? (h1.textContent = 'üstteki ezildi') : (h1.textContent = "evet...öyle");
+};
+
+
+
+
 //! EKRANA BASTIRMA
 showScreen()
 
@@ -110,11 +137,35 @@ function pieceButton (){
 
     //! plus butonuna basılınca:
     plus.onclick=()=>{
-      
-    }
+      //ekranda güncelleme:
+      adet.textContent = Number(adet.textContent)+1
 
-  })
+      //ürün sayısına göre yeni ürün toplam'ın ekranda görünmesi
+      plus.closest('.card-body').querySelector('.product-total').textContent = 
+      plus.closest('.card-body').querySelector('.indirim-price').textContent* adet.textContent
 
+      calculateCardTotal()
+    };
+
+    minus.onclick=()=>{
+      //ekranda güncelleme:
+      adet.textContent = Number(adet.textContent)-1
+
+      //ürün sayısına göre yeni ürün toplam'ın ekranda görünmesi
+      minus.closest('.card-body').querySelector('.product-total').textContent = 
+      minus.closest('.card-body').querySelector('.indirim-price').textContent* adet.textContent
+
+      calculateCardTotal();
+
+
+      //! adet 1 iken minus'a basılırsa ürün ekrandan da array'den de silinsin:
+      if (adet.textContent < 1) {
+        alert('You delete the card. If you want to see it again, refresh the page.')
+        minus.closest('.card').remove()
+      }
+    };
+
+  });
 } 
 
 
