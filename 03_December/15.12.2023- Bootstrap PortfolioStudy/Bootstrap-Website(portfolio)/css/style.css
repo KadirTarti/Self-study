@@ -71,6 +71,10 @@ html{
     opacity: .5;
 }
 
+.carousel-inner button:hover{
+    opacity: 0.8;
+}
+
 section#instructor .card{
     transition: all .5s;    
 }
