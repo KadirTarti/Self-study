@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    border:  1px solid red;
+    padding:  1em;
+    margin:  1em;
+    width:  25rem;
+    height: 20rem;
+    border-radius:  5px;
+    box-shadow:  0  2px  5px rgba(0,  0,  0,  0.15);
+    text-align: center;
+}
+
+.wData{
+    margin-top: 2rem;
+}
+
+#city-input{
+    height: 2rem;
+    width: 15rem;
+}
+
+.card h2 {
+    margin:  1rem;
+}
+.card p {
+    margin-top:  0.5em;
+}
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.search-button img{
+    width: 30px;
+}
