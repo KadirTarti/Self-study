@@ -13,24 +13,31 @@ async function fetchWeatherData() {
     const weatherInfo = `${date} ${cityName.toUpperCase()} Temperature: ${data.main.temp} °C`;
     
 
+    const oldWindValueElements = document.querySelectorAll('.weather-wind-value');
+    oldWindValueElements.forEach(element => element.remove());
 
+    var windDiv = document.createElement('div');
+    windDiv.className = 'weather-wind-value'; // Add a class to identify this element later
+    windDiv.innerHTML = `The wind value in ${cityName.toUpperCase()} is ${data.wind.speed}`;
+    const weatherIcon = document.querySelector('.weather-icon');
+    weatherIcon.appendChild(windDiv);
+    
+
+    weatherIcon.appendChild(windDiv).style.color='white'
     document.getElementById("weather-info").textContent = weatherInfo;
     document.getElementById("weather-info").style.fontSize = "1.2rem";
     document.getElementById("weather-info").style.color = "white";
 
 
-
     document.getElementById("weather-info").textContent = weatherInfo;
-    const weatherIcon = document.querySelector('.weather-icon img');
-    weatherIcon.src = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`
-    weatherIcon.style.display = 'block';
+    const weatherIcon2 = document.querySelector('.weather-icon img');
+    weatherIcon2.src = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`
+    weatherIcon2.style.display = 'block';
+    weatherIcon2.style.size= '25px';
 
 
-    var z = document.createElement('div');
-    z.innerHTML = `The wind value in ${cityName} is ${data.wind.speed}`;
-    const weatherWind = document.querySelector('.weather-icon').appendChild(z)
 
-    cityName.value=""
+    
 
 
  // data.wind.speed
