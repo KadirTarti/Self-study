@@ -10,10 +10,14 @@ async function fetchWeatherData() {
     console.log("result", data);
 
     const date = new Date().toDateString();
-    const weatherInfo = `${date} ${cityName.toUpperCase()} Temperature: ${
-      data.main.temp} °C`;
+    const weatherInfo = `${date} ${cityName.toUpperCase()} Temperature: ${data.main.temp} °C`;
+    
 
-   
+
+    document.getElementById("weather-info").textContent = weatherInfo;
+    document.getElementById("weather-info").style.fontSize = "1.2rem";
+    document.getElementById("weather-info").style.color = "white";
+
 
 
     document.getElementById("weather-info").textContent = weatherInfo;
@@ -25,6 +29,8 @@ async function fetchWeatherData() {
     var z = document.createElement('div');
     z.innerHTML = `The wind value in ${cityName} is ${data.wind.speed}`;
     const weatherWind = document.querySelector('.weather-icon').appendChild(z)
+
+    cityName.value=""
 
 
  // data.wind.speed
@@ -43,3 +49,4 @@ document.onload = () => {
     .querySelector(".search-button")
     .addEventListener("click", fetchWeatherData);
 };
+

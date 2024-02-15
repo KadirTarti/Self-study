@@ -5,14 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css" integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <div class="card">
-    <div><h2>Weather Forecast</h2></div>
+    <div>
+      <img src="img/pngimg.com - loupe_PNG10020.png" alt="">
+      <h2>Weather Forecast</h2>
+    </div>
     <div class="wData">
         <input type="text" id="city-input" placeholder="Enter city name">
-        <button class="search-button" onclick="fetchWeatherData()"><img src="img/pngimg.com - loupe_PNG10020.png" alt="Search"></button>
+        <button class="search-button" onclick="fetchWeatherData()">
+          SEARCH
+        </button>
         <p id="weather-info"></p>
         <div class="weather-icon">
           <img style="display: none;" src="" alt="weather icon" width="40" height="40"/>
