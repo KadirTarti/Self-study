@@ -17,7 +17,7 @@ body {
     width:  30rem;
     height: 50rem;
     margin: auto;
-    border-radius:  5px;
+    border-radius:  15px;
     box-shadow:  2px  2px  100px black;
     text-align: center;
     background-color: rgb(35, 61, 109);
@@ -49,7 +49,7 @@ body {
 }
 .search-button {
     background: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 15px;
     border: none ;
     cursor: pointer;
     font-size: 1rem;

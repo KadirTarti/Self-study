@@ -16,9 +16,9 @@ async function fetchWeatherData() {
     const oldWindValueElements = document.querySelectorAll('.weather-wind-value');
     oldWindValueElements.forEach(element => element.remove());
 
-    var windDiv = document.createElement('div');
+    let windDiv = document.createElement('div');
     windDiv.className = 'weather-wind-value'; // Add a class to identify this element later
-    windDiv.innerHTML = `The wind value in ${cityName.toUpperCase()} is ${data.wind.speed}`;
+    windDiv.innerHTML = `Wind: ${data.wind.speed}  km/h`;
     const weatherIcon = document.querySelector('.weather-icon');
     weatherIcon.appendChild(windDiv);
     
@@ -26,7 +26,8 @@ async function fetchWeatherData() {
     weatherIcon.appendChild(windDiv).style.color='white'
     document.getElementById("weather-info").textContent = weatherInfo;
     document.getElementById("weather-info").style.fontSize = "1.2rem";
-    document.getElementById("weather-info").style.color = "white";
+    document.getElementById("weather-info").style.fontWeight = "700";
+    document.getElementById("weather-info").style.color = "white";     
 
 
     document.getElementById("weather-info").textContent = weatherInfo;
@@ -35,13 +36,13 @@ async function fetchWeatherData() {
     weatherIcon2.style.display = 'block';
     weatherIcon2.style.size= '25px';
 
-
-
-    
-
-
- // data.wind.speed
-
+    const cityInputElement = document.getElementById("city-input");   
+    cityInputElement.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        event.preventDefault(); // Prevents the default action of the Enter key
+        fetchWeatherData();
+      }
+    });
 
     // data.sys.country
     // data.weather[0].icon
