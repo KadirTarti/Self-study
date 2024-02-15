@@ -39,3 +39,8 @@ body {
 .search-button img{
     width: 30px;
 }
+
+.weather-icon {
+    display: flex;
+    justify-content: center;
+}
