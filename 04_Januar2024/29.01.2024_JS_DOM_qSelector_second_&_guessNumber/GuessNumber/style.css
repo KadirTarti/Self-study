@@ -25,20 +25,21 @@ h1 {
 
 body {
   font-family: "Press Start 2P";
-  color: black;
-  background-image: url(desert-landscape-background_43605-2208.avif) !important;
-  background-size: cover;
-  height: 100vh;
+  color: white;
+  background-color:rgb(139, 201, 202);
+  /* background-color:rgb(161, 76, 76); */
 }
 
 .between {
-  /* position: absolute; */
   text-align: right;
-  margin-top:20px;
+  margin-top:50px;
+  margin-right: 10rem;
   font-size: 1.5rem;
   /* top: 20px;
   right: 15px; */
 }
+
+
 
 .btn {
   margin-top: 15px;
@@ -75,7 +76,7 @@ body {
 }
 main {
   height: 600px;
-  color: black;
+  color: #eee;
   display: flex;
   justify-content: space-around;
   align-items: center;
