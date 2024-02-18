@@ -24,6 +24,7 @@ let enYuksekSkor = 0
 
 document.querySelector(".check").addEventListener("click",()=>{
     const tahmin = document.querySelector(".guess").value;
+    document.querySelector(".msg").style.color = "";
 
   //? tahmin girilmeden basılmasın
   if (!tahmin || tahmin>20){
@@ -68,10 +69,9 @@ document.querySelector(".check").addEventListener("click",()=>{
 //* Again tuşuna basınca olacaklar (başlangıç değerlerine dönülsün, arka ekran #2d3436 olsun)
 
 document.querySelector(".again").onclick=()=>{
+    document.querySelector(".msg").style.color = "";
     rastgeleNumberPc = Math.ceil(Math.random()*20);
-
-    message.textContent="The game starts again for the new player"
-
+    message.textContent="The game starts again for the new player";
     document.querySelector("body").style.backgroundColor="#2d3436";
     document.querySelector(".number").textContent="?";
     document.querySelector(".guess").value="";
