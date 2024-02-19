@@ -1,4 +1,39 @@
 body {
-    background-color: #59516E;
+    background-image: url(assets/BG-1.jpg);
+    background-size: cover;
+    height: 100vh;
     color: white;
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
+
+h1{
+    text-align: center;
+    color: darkblue;
+    font-weight: 600;
+    margin-bottom: 4rem;
+
+}
+
+.container-lg{
+    margin-top: 5rem;
+}
+
+#Border{
+    border-color: darkblue !important;
+}
+
+.nav{
+    font-size: 2rem;
+    color: darkblue;
+    font-weight: 600;
+}
+
+#clock {
+    font-size:  2rem;
+    color: darkblue;
+    font-weight: 600;
+  }
+
+
