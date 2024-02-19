@@ -1,7 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    
     background-image: url(assets/BG-1.jpg);
     background-size: cover;
-    height: 100vh;
+    height: calc(100vh - 80px);
     color: white;
     font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
