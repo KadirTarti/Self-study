@@ -25,6 +25,12 @@ class Book {
     }
 };
 
+//? new keyword ü  Book Constructor ı parametrelerle çağırır.
+//? Constructor, Book object in bir örneğini kalıbını oluşturur.
+//? Constructor daki tüm variablelar ve functionlar, oluşturulan her  single örneğe (book1, dergi1 vs) (instance) eklenir.
+//? anne karnı = constructor = class Book ....... çocuk = instance = book1 dergi1
+
+
 const book1 = new Book('safahat', 'M.Akif Ersoy', 1911)
 
 console.log(book1);
