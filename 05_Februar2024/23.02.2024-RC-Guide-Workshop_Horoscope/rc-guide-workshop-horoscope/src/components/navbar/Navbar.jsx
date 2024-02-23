@@ -7,8 +7,8 @@ const Navbar1 = () => {
     <div>
       <Navbar expand="lg" className="bg-body-tertiary container">
         <Container className='konteynir' fluid>
-          {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-          <a href="#home"><img src="" alt="" /></a>
+          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <img src="./logo.png" alt="React Image" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="links ms-auto">
