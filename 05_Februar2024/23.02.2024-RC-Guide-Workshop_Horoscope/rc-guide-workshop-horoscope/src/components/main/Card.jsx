@@ -1,3 +1,4 @@
+import './Main.scss'
 
 const Card = () => {
   return (

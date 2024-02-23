@@ -5,12 +5,14 @@ import React from 'react';
 import './App.scss';
 import './components/navbar/Navbar.scss'
 import Navbar1 from './components/navbar/Navbar';
+import Card from './components/main/Card';
 
 const App = () => {
   return (
     <div>
     
     <Navbar1/>
+    <Card/>
 
     
     </div>

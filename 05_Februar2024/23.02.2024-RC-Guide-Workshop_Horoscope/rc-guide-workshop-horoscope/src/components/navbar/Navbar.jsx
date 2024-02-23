@@ -1,22 +1,26 @@
-import { Container, Nav, Navbar, NavDropdown,} from 'react-bootstrap';
+import { Container, Nav, Navbar, Button} from 'react-bootstrap';
 import './Navbar.scss'
+import logo from './logo.png'
+
+
 
 
 const Navbar1 = () => {
   return (
-    <div>
-      <Navbar expand="lg" className="bg-body-tertiary container">
-        <Container className='konteynir' fluid>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <img src="./logo.png" alt="React Image" />
+    <div className='first-div'>
+      <Navbar fluid expand="lg" className="container">
+        <Container className='navbar' fluid>
+          <Navbar.Brand fluid href="#home">
+          <img src={logo} width="100" height="100" className="d-inline-block align-top"/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="links ms-auto">
-              <Nav.Link href="#home">HOROSCOPE</Nav.Link>
-              <Nav.Link href="#link">DAILY</Nav.Link>
-              <Nav.Link href="#link">TAROT</Nav.Link>
-              <Nav.Link href="#link">ARTICLE</Nav.Link>
-              <Nav.Link href="#link">CONTACT</Nav.Link>
+            <Nav className="ms-auto">
+             
+              <Button className='link-button' variant="dark">HOROSCOPE</Button>
+              <Button className='link-button' variant="dark">DAILY</Button>
+              <Button className='link-button' variant="dark">TAROT</Button>
+              <Button className='link-button' variant="dark">ARTICLE</Button>
+              <Button className='link-button' variant="dark">CONTACT</Button>
               
             </Nav>
           </Navbar.Collapse>
