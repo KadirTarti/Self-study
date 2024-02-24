@@ -6,6 +6,7 @@ const Card1 = ({veri}) => {
   console.log(veri);
 
   return (
+    <div>
     {veri.map(({id, title, desc, image}) =>{
       return (
       <Card style={{ width: '18rem' }}>
@@ -20,7 +21,7 @@ const Card1 = ({veri}) => {
     </Card>
       )
     })}
-    
+    </div>
   )
 }
 
