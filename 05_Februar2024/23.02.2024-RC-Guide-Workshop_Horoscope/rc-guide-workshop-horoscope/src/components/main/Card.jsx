@@ -2,19 +2,25 @@ import {Card, Button} from 'react-bootstrap';
 
 import './Main.scss'
 
-const Card1 = () => {
+const Card1 = ({veri}) => {
+  console.log(veri);
+
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    {veri.map(({id, title, desc, image}) =>{
+      return (
+      <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={image}/>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{id}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {desc}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">{title}</Button>
       </Card.Body>
     </Card>
+      )
+    })}
+    
   )
 }
 
