@@ -8,3 +8,13 @@
     margin: 3rem !important;
 }
 
+.card-text-wrapper {
+    height: 200px; /* Set the maximum height */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+  }
+  
+  .card-text {
+    overflow-y: auto; /* Enable scrollbar if needed */
+    margin-right: -15px; /* Adjust for the scrollbar width */
+    padding-right: 15px; /* Adjust for the scrollbar width */
+  }
