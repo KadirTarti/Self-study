@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss'
 //! burada kullanılacak tüm sayfalar üste import edilmek ZORUNDA!
 
 
