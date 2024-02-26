@@ -3,14 +3,15 @@ import './App.scss'
 
 
 import React from 'react';
-import Navbar from './components/navbar/Navbar'
+import Navbar from './components/navbar/Navbar';
+import Header from './components/header/Header';
 
 const App = () => {
   return (
     <div>
     
     <Navbar/>
-    Bu bir deneme yazısıdır
+    <Header/>
     
     
     </div>

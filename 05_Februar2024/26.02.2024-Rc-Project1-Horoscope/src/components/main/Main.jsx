@@ -1,4 +1,4 @@
-import React from 'react'
+import {data} from './Card'
 
 const Main = () => {
   return (
