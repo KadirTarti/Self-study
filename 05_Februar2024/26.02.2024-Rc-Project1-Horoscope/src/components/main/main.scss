@@ -3,7 +3,7 @@
 
 .card-container{
 
-    background-color: rgb(43, 61, 86);
+    background-color: $cardNavBgColor;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -26,7 +26,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        color: $cardNavBgColor;
+        color: $thirdColor;
         background: none;
         text-shadow: 2px 2px 1px black;
         padding: 1rem;
@@ -41,8 +41,9 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        text-shadow: -1px 0px 1px black;
         background-color: rgba(255, 255, 255, 0.8);
-        color: $cardNavBgColor;
+        color: $backgroundColor;
         font-size: 0.5rem;
         padding: 1rem;
         border-radius: 10px;
@@ -56,9 +57,9 @@
         border-radius: 10px;
         object-fit: cover;
     }
-    &:hover img{
-        opacity: 0.5;
-    }
+    // &:hover img{
+    //     opacity: 0.5;
+    // }
 
     .desc{
         width: 500px;
@@ -66,7 +67,7 @@
         bottom: 0;
         left: 0;
         background-color: rgba(191, 188, 233, 0.8);
-        color: $secondaryColor;
+        color: darkblue;
         padding: 1rem;
         border-radius: 10px;
         text-align: justify;
