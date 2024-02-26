@@ -4,9 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
 
 body{
         font-family: "Kdam Thmor Pro", sans-serif, cursive;
         background-color: lightslategrey;
+}
+
+p{
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
 }

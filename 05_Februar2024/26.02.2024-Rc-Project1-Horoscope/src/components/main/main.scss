@@ -9,16 +9,16 @@
     gap: 2rem;
 
     .cards{
-        border: 5px solid darkblue;
+        
         width: 500px;
         height: 350px;
         border-radius: 10px;
         position: relative;
-        // overflow: hidden;
+        overflow: hidden;
 
-        // &:Hover .desc{
-        //     transform: translate(0%);
-        // }
+        &:Hover .desc{
+            transform: translateY(0%);
+        }
     }
 
     .title{
@@ -26,13 +26,13 @@
         top: 0;
         left: 0;
         color: $cardNavBgColor;
-        background-color: rgba(255, 255, 255, 0.8);
+        background: none;
+        text-shadow: 2px 2px 1px black;
         padding: 1rem;
         border-radius: 11px;
         margin-top: 10px;
         margin-left: 10px;
         z-index: 2;
-        color: darkcyan;
     }
 
     .date{
@@ -71,6 +71,12 @@
         text-align: justify;
         font-size: 1.5rem;
         max-height: 75%;
+
+        transform: translateY(100%);
+        transition: transform 1.3s ease-in-out;
+
+
+
         overflow: auto;
         z-index: 3;
         
