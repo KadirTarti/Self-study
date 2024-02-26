@@ -1,5 +1,5 @@
+import './main.scss'
 import {data} from '../../helper/data'
-import '../main/main.scss'
 import Card from './Card'
 
 const Main = () => {
