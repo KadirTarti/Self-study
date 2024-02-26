@@ -1,5 +1,39 @@
 @import '../../scss/variables';
 
 .navbar{
-    
+    background-color: $cardNavBgColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+    .links{
+        display: flex;
+        font-size: 1.5rem;
+        gap: 1rem;
+        a {
+            color: $secondaryColor;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0.5rem;
+            font-weight: 600;
+            &:hover{
+                background-color: $secondaryColor;
+                color: rgb(210, 175, 33);
+                border-radius: 1rem;
+                transition: all 1s;
+            }
+        }
+    }
+
+
+
+    img{
+        width: 8rem;
+        height: 8rem;
+    }
 }
+
