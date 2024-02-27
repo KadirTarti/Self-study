@@ -4,7 +4,7 @@ import "./header.scss"
 const Header = () => {
   return (
     <div className="header">
-      <span className="title"> Who Are You ?</span>
+      <span className="title"> Your world becomes clear once you understand how the universe influences it!</span>
     </div>
   );
 };

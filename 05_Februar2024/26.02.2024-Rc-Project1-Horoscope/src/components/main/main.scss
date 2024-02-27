@@ -3,14 +3,18 @@
 
 .card-container{
 
-    background-color: $cardNavBgColor;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(29,85,101,1) 100%);
     display: flex;
+    background-repeat: none;
+    background-size: cover;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-bottom: 2rem;
     gap: 2rem;
 
     .cards{
-        
+        margin-top: 2rem;
+        box-shadow: 5px -5px 20px black;
         width: 500px;
         height: 350px;
         border-radius: 10px;
